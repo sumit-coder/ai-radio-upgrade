@@ -131,6 +131,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: Drawer(
+        width: 300,
         child: Container(
           // color: _selectedColor ?? AIColors.primaryColor2,
           color: Colors.red,
