@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../model/news_model.dart';
 import '../services/api_service.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class NewsTab extends StatefulWidget {
   NewsTab({Key? key}) : super(key: key);
@@ -68,7 +69,17 @@ class _NewsTabState extends State<NewsTab> {
                           itemCount: snapshot.data!.data!.length,
                           itemBuilder: (conext, index) {
                             return NewsCard(
-                              onTap: () {},
+                              onTap: () {
+                                // Navigator.push(
+                                //   context,
+                                //   MaterialPageRoute(
+                                //     builder: (context) => NewsViewScreen(
+                                //       url: snapshot.data!.data![index].url!,
+                                //     ),
+                                //   ),
+                                // );
+                                launchUrl(Uri.parse(snapshot.data!.data![index].url!));
+                              },
                               title: snapshot.data!.data![index].title!,
                               imageUrl: snapshot.data!.data![index].imageUrl!,
                               shortDiscription: snapshot.data!.data![index].content!,

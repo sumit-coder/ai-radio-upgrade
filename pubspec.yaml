@@ -43,6 +43,8 @@ dev_dependencies:
   google_fonts: ^4.0.3
   velocity_x: ^3.6.0
   alan_voice: ^3.11.0
+  webview_flutter: ^4.0.6
+  url_launcher: ^6.1.10
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
