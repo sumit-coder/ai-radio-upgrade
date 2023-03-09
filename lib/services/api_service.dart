@@ -27,7 +27,8 @@ class MyApiService {
 
   Future<NewsData?> apiGet(int catIndex) async {
     NewsData? newsData;
-    final response = await http.get(Uri.parse(BASE_URL + listOfCategory[catIndex]));
+
+    final response = await http.get(Uri.parse(BASE_URL + listOfCategory[0]));
 
     if (response.statusCode == 200) {
       try {

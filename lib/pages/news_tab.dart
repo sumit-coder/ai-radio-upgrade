@@ -32,7 +32,7 @@ class _NewsTabState extends State<NewsTab> {
                 itemCount: listOfCategory.length,
                 itemBuilder: (conext, index) {
                   return CategoryButton(
-                    title: listOfCategory[index],
+                    title: listOfCategory[index].toUpperCase(),
                     isActive: activeCategoryIndex == index ? true : false,
                     onTap: () {
                       print('object');
@@ -78,11 +78,11 @@ class _NewsTabState extends State<NewsTab> {
                                 //     ),
                                 //   ),
                                 // );
-                                launchUrl(Uri.parse(snapshot.data!.data![index].url!));
+                                launchUrl(Uri.parse(snapshot.data!.data![index].readMoreUrl!));
                               },
                               title: snapshot.data!.data![index].title!,
                               imageUrl: snapshot.data!.data![index].imageUrl!,
-                              shortDiscription: snapshot.data!.data![index].content!,
+                              shortDescription: snapshot.data!.data![index].content!,
                             );
                           },
                         );
@@ -103,11 +103,12 @@ class NewsCard extends StatelessWidget {
     super.key,
     required this.title,
     required this.onTap,
-    required this.shortDiscription,
+    required this.shortDescription,
     required this.imageUrl,
   });
+
   final String title;
-  final String shortDiscription;
+  final String shortDescription;
   final String imageUrl;
   final VoidCallback onTap;
 
@@ -152,7 +153,7 @@ class NewsCard extends StatelessWidget {
                   ),
                   SizedBox(height: 4),
                   Text(
-                    shortDiscription,
+                    shortDescription,
                     maxLines: 3,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
