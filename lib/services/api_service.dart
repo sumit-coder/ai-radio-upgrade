@@ -8,18 +8,18 @@ import '../model/news_model.dart';
 
 List<String> listOfCategory = [
   "all",
-  "national",
   "business",
   "sports",
-  "world",
-  "politics",
+  "science",
   "technology",
   "startup",
+  "world",
+  "politics",
   "entertainment",
+  "automobile",
+  "national",
   "miscellaneous",
   "hatke",
-  "science",
-  "automobile",
 ];
 
 class MyApiService {
@@ -28,7 +28,7 @@ class MyApiService {
   Future<NewsData?> apiGet(int catIndex) async {
     NewsData? newsData;
 
-    final response = await http.get(Uri.parse(BASE_URL + listOfCategory[0]));
+    final response = await http.get(Uri.parse(BASE_URL + listOfCategory[catIndex]));
 
     if (response.statusCode == 200) {
       try {

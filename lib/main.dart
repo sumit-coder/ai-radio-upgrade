@@ -1,12 +1,21 @@
+import 'dart:io';
+
 import 'package:ai_govinds_radio/pages/home_page.dart';
 import 'package:ai_govinds_radio/pages/news_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+class MyHttpOverrides extends HttpOverrides {
+  @override
+  HttpClient createHttpClient(SecurityContext? context) {
+    return super.createHttpClient(context)..badCertificateCallback = (X509Certificate cert, String host, int port) => true;
+  }
+}
+
 void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor: Colors.transparent));
-
+  HttpOverrides.global = MyHttpOverrides();
   runApp(MyApp());
 }
 

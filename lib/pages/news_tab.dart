@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 
 import '../model/news_model.dart';
@@ -13,8 +15,33 @@ class NewsTab extends StatefulWidget {
 
 class _NewsTabState extends State<NewsTab> {
   int activeCategoryIndex = 0;
+  late NewsData _newsData;
+
+  bool isLoading = false;
 
   ScrollController _controller = ScrollController();
+
+  getData(index) async {
+    _newsData = (await MyApiService().apiGet(index))!;
+    log(_newsData.data![0].title.toString());
+  }
+
+  onTapCategory(int index) {
+    print('object');
+    // MyApiService().apiGet(0);
+    // getData(index);
+    setState(() {
+      isLoading = true;
+      activeCategoryIndex = index;
+    });
+    // take to top of List
+    // _controller.animateTo(
+    //   0,
+    //   duration: Duration(milliseconds: 500),
+    //   curve: Curves.bounceIn,
+    // );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,17 +62,10 @@ class _NewsTabState extends State<NewsTab> {
                     title: listOfCategory[index].toUpperCase(),
                     isActive: activeCategoryIndex == index ? true : false,
                     onTap: () {
-                      print('object');
-                      // MyApiService().apiGet(0);
+                      // onTapCategory(index);
                       setState(() {
                         activeCategoryIndex = index;
                       });
-                      // take to top of List
-                      _controller.animateTo(
-                        0,
-                        duration: Duration(milliseconds: 500),
-                        curve: Curves.bounceIn,
-                      );
                     },
                   );
                 },
@@ -59,8 +79,21 @@ class _NewsTabState extends State<NewsTab> {
                     future: MyApiService().apiGet(activeCategoryIndex),
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.waiting) {
-                        Center(
-                          child: Text('Loading..'),
+                        return Center(
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: const [
+                              CircularProgressIndicator(),
+                              SizedBox(height: 14),
+                              Text(
+                                "Loading",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                ),
+                              )
+                            ],
+                          ),
                         );
                       }
                       if (snapshot.hasData) {
@@ -70,14 +103,6 @@ class _NewsTabState extends State<NewsTab> {
                           itemBuilder: (conext, index) {
                             return NewsCard(
                               onTap: () {
-                                // Navigator.push(
-                                //   context,
-                                //   MaterialPageRoute(
-                                //     builder: (context) => NewsViewScreen(
-                                //       url: snapshot.data!.data![index].url!,
-                                //     ),
-                                //   ),
-                                // );
                                 launchUrl(Uri.parse(snapshot.data!.data![index].readMoreUrl!));
                               },
                               title: snapshot.data!.data![index].title!,

@@ -23,17 +23,7 @@ class _HomePageState extends State<HomePage> {
   late MyRadio _selectedRadio;
   late Color _selectedColor;
   bool _isPlaying = false;
-  final sugg = [
-    "Play",
-    "Stop",
-    "Play rock music",
-    "Play 107 FM",
-    "Play next",
-    "Play 104 FM",
-    "Pause",
-    "Play previous",
-    "Play pop music"
-  ];
+  final sugg = ["Play", "Stop", "Play rock music", "Play 107 FM", "Play next", "Play 104 FM", "Pause", "Play previous", "Play pop music"];
 
   final AudioPlayer _audioPlayer = AudioPlayer();
 
@@ -160,13 +150,7 @@ class _HomePageState extends State<HomePage> {
               .make(),
           [
             AppBar(
-              title: "Acro Radio"
-                  .text
-                  .xl4
-                  .bold
-                  .white
-                  .make()
-                  .shimmer(primaryColor: Vx.purple300, secondaryColor: Colors.white),
+              title: "Acro Radio".text.xl4.bold.white.make().shimmer(primaryColor: Vx.purple300, secondaryColor: Colors.white),
               backgroundColor: Colors.transparent,
               elevation: 0.0,
               centerTitle: true,
@@ -254,8 +238,7 @@ class _HomePageState extends State<HomePage> {
                             DecorationImage(
                               image: NetworkImage(rad.image!),
                               fit: BoxFit.cover,
-                              colorFilter:
-                                  ColorFilter.mode(Colors.black.withOpacity(0.3), BlendMode.darken),
+                              colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.3), BlendMode.darken),
                             ),
                           )
                           .border(color: Colors.black, width: 5.0)
