@@ -45,7 +45,7 @@ class _NewsTabState extends State<NewsTab> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black87,
+      backgroundColor: Color(0xFF2C293A),
       body: SafeArea(
         child: Column(
           children: [

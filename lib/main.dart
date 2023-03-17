@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:ai_govinds_radio/pages/home_page.dart';
 import 'package:ai_govinds_radio/pages/news_tab.dart';
+import 'package:ai_govinds_radio/pages/podcast_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -38,7 +39,12 @@ class _MyAppState extends State<MyApp> {
       ),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: _selectedIndex == 0 ? HomePage() : NewsTab(),
+        backgroundColor: Color(0xFF2C293A),
+        body: _selectedIndex == 0
+            ? HomePage()
+            : _selectedIndex == 1
+                ? NewsTab()
+                : PodCastTab(),
         bottomNavigationBar: NavigationBar(
           onDestinationSelected: (int index) {
             setState(() {
@@ -54,6 +60,10 @@ class _MyAppState extends State<MyApp> {
             NavigationDestination(
               icon: Icon(Icons.newspaper_rounded),
               label: 'News',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.podcasts_rounded),
+              label: 'Podcast',
             ),
           ],
         ),
