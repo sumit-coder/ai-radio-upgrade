@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:ai_govinds_radio/pages/radio_tab.dart';
+import 'package:ai_govinds_radio/pages/home/tabs/radio_tab.dart';
 import 'package:ai_govinds_radio/pages/home/tabs/news_tab.dart';
 import 'package:ai_govinds_radio/pages/home/tabs/podcast_tab.dart';
 import 'package:ai_govinds_radio/utils/app_consts.dart';

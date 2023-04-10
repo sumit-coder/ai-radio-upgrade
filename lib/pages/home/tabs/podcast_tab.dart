@@ -1,4 +1,4 @@
-import 'package:ai_govinds_radio/pages/podcast_view_page.dart';
+import 'package:ai_govinds_radio/pages/home/tabs/podcast_view_page.dart';
 import 'package:flutter/material.dart';
 
 import '../../../data/podcast_data.dart';

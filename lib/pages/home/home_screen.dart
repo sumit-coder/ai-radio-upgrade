@@ -1,4 +1,4 @@
-import 'package:ai_govinds_radio/pages/radio_tab.dart';
+import 'package:ai_govinds_radio/pages/home/tabs/radio_tab.dart';
 import 'package:flutter/material.dart';
 
 import 'tabs/news_tab.dart';

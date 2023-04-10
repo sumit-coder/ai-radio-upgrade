@@ -1,4 +1,5 @@
 import 'dart:developer';
+import 'package:ai_govinds_radio/utils/app_consts.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:alan_voice/alan_voice.dart';
 import 'package:audioplayers/audioplayers.dart';
@@ -9,9 +10,9 @@ import 'package:velocity_x/velocity_x.dart';
 
 import 'package:url_launcher/url_launcher.dart';
 
-import '../model/radio.dart';
-import '../utils/ai_util.dart';
-import '../widgets/drawer_widget.dart';
+import '../../../model/radio.dart';
+import '../../../utils/ai_util.dart';
+import '../../../widgets/drawer_widget.dart';
 
 class RadioTab extends StatefulWidget {
   const RadioTab({super.key});
@@ -152,7 +153,7 @@ class _RadioTabState extends State<RadioTab> {
               .make(),
           [
             AppBar(
-              title: "Acro Radio".text.xl4.bold.white.make().shimmer(primaryColor: Vx.purple300, secondaryColor: Colors.white),
+              title: MyConst.appDisplayName.text.xl4.bold.white.make().shimmer(primaryColor: Vx.purple300, secondaryColor: Colors.white),
               backgroundColor: Colors.transparent,
               elevation: 0.0,
               centerTitle: true,
