@@ -1,6 +1,8 @@
 import 'package:ai_govinds_radio/pages/podcast_view_page.dart';
 import 'package:flutter/material.dart';
 
+import '../../../data/podcast_data.dart';
+
 class PodCastTab extends StatefulWidget {
   PodCastTab({Key? key}) : super(key: key);
 
@@ -26,23 +28,23 @@ class _PodCastTabState extends State<PodCastTab> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(height: 84),
+              const SizedBox(height: 84),
               Container(
-                margin: EdgeInsets.only(left: 22),
+                margin: const EdgeInsets.only(left: 22),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       "Explore".toUpperCase(),
                       maxLines: 1,
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 24,
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 4),
-                    SizedBox(
+                    const SizedBox(height: 4),
+                    const SizedBox(
                       width: 200,
                       child: Text(
                         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -57,77 +59,39 @@ class _PodCastTabState extends State<PodCastTab> {
                   ],
                 ),
               ),
-              SizedBox(height: 18),
+              const SizedBox(height: 18),
               SectionDividerWithTitleAndBody(
-                title: 'New',
+                title: '',
                 bodyWidget: Container(
-                  height: 200,
+                  // height: 200,
+                  // width: 200,
                   child: ListView.builder(
-                    itemCount: fakeData.length,
-                    itemExtent: 144,
-                    padding: EdgeInsets.only(left: 18, right: 6),
-                    scrollDirection: Axis.horizontal,
-                    physics: BouncingScrollPhysics(),
+                    itemCount: listOfPodCasts.length,
+                    shrinkWrap: true,
+                    padding: const EdgeInsets.only(left: 16, right: 16),
+                    // scrollDirection: Axis.horizontal,
+                    physics: const BouncingScrollPhysics(),
                     itemBuilder: (context, index) {
                       return PodCastCard(
-                        title: fakeData[index],
-                        imageUrl: '',
                         onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
                               builder: (context) {
-                                return PodCastViewPage();
+                                return PodCastViewPage(podCast: listOfPodCasts[index]);
                               },
                             ),
                           );
                         },
+                        title: listOfPodCasts[index].name,
+                        bodyText: listOfPodCasts[index].shortDescription,
+                        imageUrl: listOfPodCasts[index].posterUrl,
+                        episodeCount: listOfPodCasts[index].episodes.length,
                       );
                     },
                   ),
                 ),
               ),
-              SectionDividerWithTitleAndBody(
-                title: 'Top Listened',
-                bodyWidget: Container(
-                  height: 200,
-                  child: ListView.builder(
-                    itemCount: fakeData.length,
-                    itemExtent: 144,
-                    padding: EdgeInsets.only(left: 18, right: 6),
-                    scrollDirection: Axis.horizontal,
-                    physics: BouncingScrollPhysics(),
-                    itemBuilder: (context, index) {
-                      return PodCastCard(
-                        title: fakeData[index],
-                        imageUrl: '',
-                        onTap: () {},
-                      );
-                    },
-                  ),
-                ),
-              ),
-              SectionDividerWithTitleAndBody(
-                title: 'Top Liked',
-                bodyWidget: Container(
-                  height: 200,
-                  child: ListView.builder(
-                    itemCount: fakeData.length,
-                    itemExtent: 144,
-                    padding: EdgeInsets.only(left: 18, right: 6),
-                    scrollDirection: Axis.horizontal,
-                    physics: BouncingScrollPhysics(),
-                    itemBuilder: (context, index) {
-                      return PodCastCard(
-                        title: fakeData[index],
-                        imageUrl: '',
-                        onTap: () {},
-                      );
-                    },
-                  ),
-                ),
-              ),
-              SizedBox(height: 12),
             ],
           ),
         ),
@@ -142,43 +106,77 @@ class PodCastCard extends StatelessWidget {
     required this.title,
     required this.imageUrl,
     required this.onTap,
+    required this.bodyText,
+    required this.episodeCount,
   });
 
   final String title;
+  final String bodyText;
+  final int episodeCount;
   final String imageUrl;
   final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(right: 16),
+      margin: const EdgeInsets.only(bottom: 18),
       decoration: BoxDecoration(
         // color: Colors.deepPurple,
         borderRadius: BorderRadius.circular(8),
       ),
       child: InkWell(
         onTap: onTap,
-        child: Column(
+        child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(
-              height: 164,
+              height: 124,
+              width: 124,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(8),
                 child: Image.network(
-                  'https://www.forbes.com/advisor/wp-content/uploads/2022/06/Image_-_Podcast_.jpeg.jpg',
+                  imageUrl,
                   fit: BoxFit.cover,
                 ),
               ),
             ),
-            SizedBox(height: 4),
-            Text(
-              title.toUpperCase(),
-              maxLines: 1,
-              style: TextStyle(
-                fontSize: 14,
-                color: Colors.white,
-                fontWeight: FontWeight.w600,
+            const SizedBox(width: 10),
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    maxLines: 1,
+                    style: const TextStyle(
+                      fontSize: 18,
+                      color: Color.fromARGB(255, 239, 239, 239),
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  SizedBox(height: 4),
+                  Text(
+                    "$episodeCount Episodes",
+                    maxLines: 1,
+                    style: const TextStyle(
+                      fontSize: 16,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                  SizedBox(height: 12),
+                  Text(
+                    bodyText,
+                    maxLines: 3,
+                    textAlign: TextAlign.justify,
+                    style: const TextStyle(
+                      fontSize: 14,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ],
               ),
             ),
           ],
@@ -197,7 +195,7 @@ class SectionDividerWithTitleAndBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 8),
+      margin: const EdgeInsets.only(top: 8),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

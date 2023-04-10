@@ -1,7 +1,10 @@
+import 'package:ai_govinds_radio/model/podcast_model.dart';
 import 'package:flutter/material.dart';
 
 class PodCastViewPage extends StatelessWidget {
-  const PodCastViewPage({Key? key}) : super(key: key);
+  const PodCastViewPage({Key? key, required this.podCast}) : super(key: key);
+
+  final PodCast podCast;
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +21,7 @@ class PodCastViewPage extends StatelessWidget {
                     child: Hero(
                       tag: 'poster',
                       child: Image.network(
-                        'https://www.forbes.com/advisor/wp-content/uploads/2022/06/Image_-_Podcast_.jpeg.jpg',
+                        podCast.posterUrl,
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -57,7 +60,7 @@ class PodCastViewPage extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              "Martin Garrix Show".toUpperCase(),
+                              podCast.name.toUpperCase(),
                               maxLines: 1,
                               style: const TextStyle(
                                 fontSize: 18,
@@ -66,7 +69,7 @@ class PodCastViewPage extends StatelessWidget {
                               ),
                             ),
                             Text(
-                              "Episode - 174".toUpperCase(),
+                              "Episodes - ${podCast.episodes.length}".toUpperCase(),
                               maxLines: 1,
                               style: const TextStyle(
                                 fontSize: 14,
@@ -83,23 +86,22 @@ class PodCastViewPage extends StatelessWidget {
               ),
             ),
             Container(
-              child: Text('afsdf'),
+              child: const Text('afsdf'),
             ),
-            Container(
-              child: Expanded(
-                child: Container(
-                  // height: 300,
-                  child: ListView.builder(
-                    itemCount: 20,
-                    shrinkWrap: false,
-                    itemBuilder: (BuildContext context, int index) {
-                      return EpisodeCard(
-                        imageUrl: '',
-                        onTap: () {},
-                        title: '$index',
-                      );
-                    },
-                  ),
+            Expanded(
+              child: Container(
+                // height: 300,
+                child: ListView.builder(
+                  itemCount: podCast.episodes.length,
+                  shrinkWrap: false,
+                  itemBuilder: (BuildContext context, int index) {
+                    return EpisodeCard(
+                      imageUrl: podCast.posterUrl,
+                      bodyText: podCast.episodes[index].shortDescription,
+                      onTap: () {},
+                      title: podCast.episodes[index].title,
+                    );
+                  },
                 ),
               ),
             ),
@@ -116,9 +118,11 @@ class EpisodeCard extends StatelessWidget {
     required this.title,
     required this.imageUrl,
     required this.onTap,
+    required this.bodyText,
   });
 
   final String title;
+  final String bodyText;
   final String imageUrl;
   final VoidCallback onTap;
 
@@ -133,29 +137,42 @@ class EpisodeCard extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const SizedBox(height: 4),
-              Text(
-                'Episode '.toUpperCase() + title.toUpperCase(),
-                maxLines: 1,
-                style: const TextStyle(
-                  fontSize: 16,
-                  color: Colors.white,
-                  fontWeight: FontWeight.w500,
+          SizedBox(
+            width: 88,
+            height: 100,
+            child: Image.network(
+              imageUrl,
+              fit: BoxFit.cover,
+            ),
+          ),
+          SizedBox(width: 8),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Text(
+                  title,
+                  maxLines: 3,
+                  // textAlign: TextAlign.justify,
+                  style: const TextStyle(
+                    fontSize: 16,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
-              ),
-              const Text(
-                "Martin Garrix Show",
-                maxLines: 1,
-                style: TextStyle(
-                  fontSize: 12,
-                  color: Colors.white,
-                  fontWeight: FontWeight.w500,
+                SizedBox(height: 8),
+                Text(
+                  bodyText,
+                  maxLines: 1,
+                  style: const TextStyle(
+                    fontSize: 12,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
           InkWell(
             onTap: onTap,

@@ -2,8 +2,8 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 
-import '../model/news_model.dart';
-import '../services/api_service.dart';
+import '../../../model/news_model.dart';
+import '../../../services/api_service.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class NewsTab extends StatefulWidget {

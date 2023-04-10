@@ -13,12 +13,14 @@ import '../model/radio.dart';
 import '../utils/ai_util.dart';
 import '../widgets/drawer_widget.dart';
 
-class HomePage extends StatefulWidget {
+class RadioTab extends StatefulWidget {
+  const RadioTab({super.key});
+
   @override
-  _HomePageState createState() => _HomePageState();
+  _RadioTabState createState() => _RadioTabState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _RadioTabState extends State<RadioTab> {
   List<MyRadio> radios = [];
   late MyRadio _selectedRadio;
   late Color _selectedColor;
