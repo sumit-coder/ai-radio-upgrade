@@ -2992,120 +2992,6 @@ List<PodCast> listOfPodCasts = [
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/feccba8b-0997-448d-8f75-32975a460712/audio/fb3747c3-7ad3-416b-b0d7-09a5d1436a71/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
     ],
   ),
   PodCast(
@@ -3284,12 +3170,6 @@ List<PodCast> listOfPodCasts = [
     posterUrl:
         "https://images.unsplash.com/photo-1593697909683-bccb1b9e68a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80",
     episodes: [
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
       PodCastEpisode(
         title: "Demo",
         shortDescription: "",
