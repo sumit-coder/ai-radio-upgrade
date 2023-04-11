@@ -2562,9 +2562,779 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
+    name: "Global News Podcast- By BBC",
+    shortDescription:
+        "Global News Podcast Podcast. The day's top stories from BBC News.",
+    posterUrl:
+        "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/23/9d/ce/239dcef7-d24d-bb0b-1ed1-7b7a87d635ce/mza_7839052379663357293.jpg/1280x1280bb-75.jpg",
+    episodes: [
+      PodCastEpisode(
+        title: "The president of Belarus seeks security guarantees from Russia",
+        shortDescription: "2023-04-10",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0ffvrmj.mp3",
+      ),
+      PodCastEpisode(
+        title: "Saudi-Houthi talks bring hope of Yemen ceasefire",
+        shortDescription: "2023-04-10",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0ffshws.mp3",
+      ),
+      PodCastEpisode(
+        title: "More Iranian schoolgirls sick from 'gas attacks'",
+        shortDescription: "2023-04-09",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0ffpyss.mp3",
+      ),
+      PodCastEpisode(
+        title: "The Happy Pod: Back to class for Afghan girls",
+        shortDescription: "2023-04-08",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0ffh1j6.mp3",
+      ),
+      PodCastEpisode(
+        title: "One dead, several injured in Tel Aviv attack",
+        shortDescription: "2023-04-08",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0ffk4xh.mp3",
+      ),
+      PodCastEpisode(
+        title: "Israeli air strikes hit Gaza and Lebanon",
+        shortDescription: "2023-04-07",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0ffhbx7.mp3",
+      ),
+      PodCastEpisode(
+        title: "Israel strikes targets in Gaza after rocket attacks",
+        shortDescription: "2023-04-07",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0ffdlx8.mp3",
+      ),
+      PodCastEpisode(
+        title: "French president urges China to help stop Ukraine war",
+        shortDescription: "2023-04-06",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0ffb2yt.mp3",
+      ),
+      PodCastEpisode(
+        title: "Taiwan president meets US House Speaker amid China tensions",
+        shortDescription: "2023-04-06",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0ff62hp.mp3",
+      ),
+      PodCastEpisode(
+        title: "Macron calls for a Chinese role in ending the war in Ukraine",
+        shortDescription: "2023-04-05",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0ff2m3z.mp3",
+      ),
+      PodCastEpisode(
+        title: "Trump: Charges are -election interference",
+        shortDescription: "2023-04-05",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fdybmk.mp3",
+      ),
+      PodCastEpisode(
+        title: "Trump appears in court",
+        shortDescription: "2023-04-04",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fdxfzl.mp3",
+      ),
+      PodCastEpisode(
+        title: "Finland joins Nato",
+        shortDescription: "2023-04-04",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fdtsh9.mp3",
+      ),
+      PodCastEpisode(
+        title: "Trump prepares for court hearing in New York",
+        shortDescription: "2023-04-04",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fdpfkn.mp3",
+      ),
+      PodCastEpisode(
+        title: "Russia arrests woman for pro-war blogger killing",
+        shortDescription: "2023-04-03",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fdm14p.mp3",
+      ),
+      PodCastEpisode(
+        title: "Cafe bomb in St Petersburg kills military blogger",
+        shortDescription: "2023-04-02",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fdh9w2.mp3",
+      ),
+      PodCastEpisode(
+        title: "Fresh anti-judicial demonstrations in Israel",
+        shortDescription: "2023-04-01",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fdcb08.mp3",
+      ),
+      PodCastEpisode(
+        title: "The Happy Pod: Striking gold",
+        shortDescription: "2023-04-01",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fd4rv8.mp3",
+      ),
+      PodCastEpisode(
+        title: "CATASRROPHIC tornado hits US town of Little Rock",
+        shortDescription: "2023-04-01",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fd7hkj.mp3",
+      ),
+      PodCastEpisode(
+        title: "Donald Trump reacts to grand jury indictment",
+        shortDescription: "2023-03-31",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fd4swg.mp3",
+      ),
+      PodCastEpisode(
+        title: "Donald Trump indicted by New York grand jury",
+        shortDescription: "2023-03-31",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fd13dp.mp3",
+      ),
+      PodCastEpisode(
+        title: "Bolsonaro back in Brazil",
+        shortDescription: "2023-03-30",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fcx6v6.mp3",
+      ),
+      PodCastEpisode(
+        title: "World's top court to weigh in on climate change",
+        shortDescription: "2023-03-29",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fcs8ht.mp3",
+      ),
+      PodCastEpisode(
+        title: "Does failure to address climate change violate human rights?",
+        shortDescription: "2023-03-29",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fcn7cs.mp3",
+      ),
+      PodCastEpisode(
+        title: "IOC recommends return of Russian and Belarusian athletes",
+        shortDescription: "2023-03-28",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fcjml1.mp3",
+      ),
+      PodCastEpisode(
+        title: "39 dead in fire at Mexico migrant centre",
+        shortDescription: "2023-03-28",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fcghmj.mp3",
+      ),
+      PodCastEpisode(
+        title: "Israeli PM delays reforms after mass protests",
+        shortDescription: "2023-03-28",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fcbw8k.mp3",
+      ),
+      PodCastEpisode(
+        title: "Netanyahu under pressure over judicial reforms",
+        shortDescription: "2023-03-27",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fcb347.mp3",
+      ),
+      PodCastEpisode(
+        title: "Israel: Defence minister sacked by Benjamin Netanyahu",
+        shortDescription: "2023-03-26",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fc4szz.mp3",
+      ),
+      PodCastEpisode(
+        title: "Putin deploying nuclear weapons to Belarus",
+        shortDescription: "2023-03-25",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fc0r05.mp3",
+      ),
+      PodCastEpisode(
+        title: "The Happy Pod: The smiling cow",
+        shortDescription: "2023-03-25",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fbssks.mp3",
+      ),
+      PodCastEpisode(
+        title: "Hotel Rwanda hero freed",
+        shortDescription: "2023-03-24",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fbwhd1.mp3",
+      ),
+      PodCastEpisode(
+        title:
+            "King Charles's state visit postponed after pension protests in France",
+        shortDescription: "2023-03-24",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fbstzs.mp3",
+      ),
+      PodCastEpisode(
+        title: "US Congress harshly grills TikTok boss",
+        shortDescription: "2023-03-24",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fbnn6f.mp3",
+      ),
+      PodCastEpisode(
+        title: "Protests as Israel passes law which protects PM",
+        shortDescription: "2023-03-23",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fbk2wp.mp3",
+      ),
+      PodCastEpisode(
+        title: "Johnson denies lying to parliament over partygate",
+        shortDescription: "2023-03-23",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fbdfbv.mp3",
+      ),
+      PodCastEpisode(
+        title: "UN warns of looming global water crisis",
+        shortDescription: "2023-03-22",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fb8gn3.mp3",
+      ),
+      PodCastEpisode(
+        title:
+            "Earthquake hits Afghanistan as tremors felt in Pakistan and India",
+        shortDescription: "2023-03-22",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fb4nws.mp3",
+      ),
+      PodCastEpisode(
+        title: "Russia's and China's leaders debate the war in Ukraine",
+        shortDescription: "2023-03-21",
+        posterUrl: "",
+        audioSourceUrl:
+            "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fb2bxt.mp3",
+      ),
+    ],
+  ),
+  PodCast(
+    name: "A Bit of Optimism",
+    shortDescription:
+        "Being enthusiastic, generous, and kind attracts people who want to help—and together you can accomplish the unreasonable. This is… A Bit of Optimism.",
+    posterUrl:
+        "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/b1/4b/59/b14b596a-195d-152c-44b5-fc6a5982ee50/mza_449559017114033694.jpg/1280x1280bb-75.jpg",
+    episodes: [
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+    ],
+  ),
+  PodCast(
     name: "Demo",
     shortDescription: "Demo",
-    posterUrl: "Demo",
+    posterUrl:
+        "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/23/9d/ce/239dcef7-d24d-bb0b-1ed1-7b7a87d635ce/mza_7839052379663357293.jpg/1280x1280bb-75.jpg",
+    episodes: [
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+      PodCastEpisode(
+        title: "Demo",
+        shortDescription: "",
+        posterUrl: "",
+        audioSourceUrl: "demo",
+      ),
+    ],
+  ),
+  PodCast(
+    name: "Demo",
+    shortDescription: "Demo",
+    posterUrl:
+        "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/23/9d/ce/239dcef7-d24d-bb0b-1ed1-7b7a87d635ce/mza_7839052379663357293.jpg/1280x1280bb-75.jpg",
     episodes: [
       PodCastEpisode(
         title: "Demo",
