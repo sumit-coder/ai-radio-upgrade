@@ -101,26 +101,21 @@ class PodCastViewPage extends StatelessWidget {
                         return Column(
                           children: [
                             Container(
-                              child: FutureBuilder(
-                                future: audioProvider.audioPlayer.getDuration(),
-                                builder: (context, audioDuration) {
-                                  return SliderTheme(
-                                    data: const SliderThemeData(
-                                      thumbShape: RoundSliderThumbShape(
-                                        enabledThumbRadius: 8.0,
-                                        pressedElevation: 2.0,
-                                      ),
-                                      overlayShape: RoundSliderOverlayShape(overlayRadius: 16.0),
-                                    ),
-                                    child: Slider(
-                                      max: audioDuration.data!.inSeconds.toDouble(),
-                                      value: snapshot.data!.inSeconds.toDouble(),
-                                      onChanged: (value) {
-                                        audioProvider.audioPlayer.seek(Duration(seconds: value.toInt()));
-                                      },
-                                    ),
-                                  );
-                                },
+                              child: SliderTheme(
+                                data: const SliderThemeData(
+                                  thumbShape: RoundSliderThumbShape(
+                                    enabledThumbRadius: 8.0,
+                                    pressedElevation: 2.0,
+                                  ),
+                                  overlayShape: RoundSliderOverlayShape(overlayRadius: 16.0),
+                                ),
+                                child: Slider(
+                                  max: audioProvider.activeAudioDuration.inSeconds.toDouble(),
+                                  value: snapshot.data!.inSeconds.toDouble(),
+                                  onChanged: (value) {
+                                    audioProvider.audioPlayer.seek(Duration(seconds: value.toInt()));
+                                  },
+                                ),
                               ),
                             ),
                             Padding(
@@ -135,17 +130,12 @@ class PodCastViewPage extends StatelessWidget {
                                       fontSize: 14,
                                     ),
                                   ),
-                                  FutureBuilder(
-                                    future: audioProvider.audioPlayer.getDuration(),
-                                    builder: (context, audioDuration) {
-                                      return Text(
-                                        formatTime(audioDuration.data!.inSeconds.toInt()),
-                                        style: const TextStyle(
-                                          color: Colors.white,
-                                          fontSize: 14,
-                                        ),
-                                      );
-                                    },
+                                  Text(
+                                    formatTime(audioProvider.activeAudioDuration.inSeconds),
+                                    style: const TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 14,
+                                    ),
                                   )
                                 ],
                               ),
@@ -154,7 +144,55 @@ class PodCastViewPage extends StatelessWidget {
                         );
                       }
                       // return Text(Duration(seconds: 5000).inMinutes.toString());
-                      return const Text('asdklf');
+                      return Column(
+                        children: [
+                          Container(
+                            child: SliderTheme(
+                              data: const SliderThemeData(
+                                thumbShape: RoundSliderThumbShape(
+                                  enabledThumbRadius: 8.0,
+                                  pressedElevation: 2.0,
+                                ),
+                                overlayShape: RoundSliderOverlayShape(overlayRadius: 16.0),
+                              ),
+                              child: Slider(
+                                max: 100,
+                                value: 0,
+                                onChanged: (value) {
+                                  audioProvider.audioPlayer.seek(Duration(seconds: value.toInt()));
+                                },
+                              ),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                const Text(
+                                  "00:00:00",
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 14,
+                                  ),
+                                ),
+                                FutureBuilder(
+                                  future: audioProvider.audioPlayer.getDuration(),
+                                  builder: (context, audioDuration) {
+                                    return Text(
+                                      formatTime(audioDuration.data!.inSeconds.toInt()),
+                                      style: const TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 14,
+                                      ),
+                                    );
+                                  },
+                                )
+                              ],
+                            ),
+                          ),
+                        ],
+                      );
                     },
                   ),
                   Row(
