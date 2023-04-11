@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
         ChangeNotifierProvider(create: (_) => AudioPlayerProvider()),
       ],
       child: MaterialApp(
-        showPerformanceOverlay: true,
+        showPerformanceOverlay: false,
         title: MyConst.appDisplayName,
         theme: ThemeData(
           fontFamily: GoogleFonts.poppins().fontFamily,

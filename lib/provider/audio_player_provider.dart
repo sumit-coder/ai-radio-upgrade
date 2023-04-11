@@ -3,6 +3,7 @@ import 'package:audioplayers/audioplayers.dart';
 
 class AudioPlayerProvider with ChangeNotifier {
   final audioPlayer = AudioPlayer();
+  Duration activeAudioDuration = Duration.zero;
 
   setAudioSource(String audioFileUrl) async {
     await audioPlayer.setSourceUrl(audioFileUrl);
@@ -10,6 +11,9 @@ class AudioPlayerProvider with ChangeNotifier {
 
   playAudioPlayer(String audioFileUrl) async {
     await audioPlayer.play(UrlSource(audioFileUrl));
+    activeAudioDuration = await audioPlayer.getDuration() ?? Duration.zero;
+
+    notifyListeners();
   }
 
   pauseAudioPlayer() async {
