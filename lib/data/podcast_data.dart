@@ -2853,124 +2853,144 @@ List<PodCast> listOfPodCasts = [
         "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/b1/4b/59/b14b596a-195d-152c-44b5-fc6a5982ee50/mza_449559017114033694.jpg/1280x1280bb-75.jpg",
     episodes: [
       PodCastEpisode(
-        title: "Demo",
+        title: "The Courage of Compassion with Robin Steinberg",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/4800bfa3-ab7e-4f30-b0a1-af05e740a8e0/audio/f4a30d14-d854-4896-ad10-cf971a8aac15/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "A Goofy Episode with Bill Farmer",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/d5940c3d-691f-4020-ab73-c420ea314741/audio/9f68d13b-ea7e-4022-882f-2938e245337e/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Insane Vacations with Mike Reiss",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/db167cd9-8051-46c7-82d7-f076497079fa/audio/b6b5d658-d8cf-45c5-bfb8-4453aa6e7e79/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Down A Rabbit Hole with Seth Godin",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/75c61c69-5a4a-4a57-910f-130a7ee950d3/audio/a9095dcf-d745-4025-a927-c11819466023/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "How To Be An Entrepreneur with Jeff Rosenthal",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/963cc95c-23fb-4250-8947-dca5d1de872b/audio/21585701-dd31-4db0-b549-1375f667d1b8/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "The Wisdom of Anxiety with Dr. Tracy Dennis-Tiwary",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/51a42876-6ac4-492d-a228-0d9d62296f4c/audio/58289c39-b2d2-4846-878f-555d4eb5e665/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Guaranteed Joy with Richard Curtis",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/66b18efc-ecbc-46f2-ad26-6ec7b980dc11/audio/6cb88673-994f-423f-a855-c6c4684f6da9/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Exploration with Leland Melvin",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/20c27b02-258d-426e-abd2-c6ce4662ccd7/audio/2fa71346-14cf-4541-bcf5-0b508b5e7209/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Taking Comfortable Risks with Scott Galloway",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/0796eea8-5e16-4b28-9f34-c8c2645cf1de/audio/61adf9dd-35f2-4ed8-83df-e4aad77179c3/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Digging Up the Past with Sarah Parcak",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/4ef5295f-771e-4510-918e-bd1a094f0626/audio/441dca6f-0b8b-4d79-a501-988fbc877aec/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "High Performance with Divesh Makan",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/c981d383-83ed-4a61-89a6-00fb3ef81373/audio/989c749b-194d-4c0f-9ea7-a0bac612d993/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Embracing The Fall with Carla Hall",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/ef085880-c87a-41e8-8210-0d4f033376c7/audio/9df64d9f-eb30-4e04-93eb-6dc0be562e6f/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Gen Z in the Workplace with Jonah and David Stillman",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/c36811ef-a83d-4282-8f0e-59ba51f169d3/audio/b6152bf1-9e4e-4325-a8e0-962e2fb8e4c9/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Ask Simon Anything: Part Two",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/c36811ef-a83d-4282-8f0e-59ba51f169d3/audio/b6152bf1-9e4e-4325-a8e0-962e2fb8e4c9/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Ask Simon Anything: Part One",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/c36811ef-a83d-4282-8f0e-59ba51f169d3/audio/b6152bf1-9e4e-4325-a8e0-962e2fb8e4c9/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Two Bits of Optimism with Brené Brown and Adam Grant: Part Two",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/65d82e2f-923e-4220-8ddd-d2b3288a8211/audio/138e04fe-d7b7-4d47-8db7-4b114236021d/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Two Bits of Optimism with Brené Brown and Adam Grant: Part One",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/d3b54ec8-6a41-4b05-b3aa-44c2b8f90bd8/audio/dcb6aff1-ceb4-45bb-af15-187076294fb6/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Being Yourself with Kathryn Finney",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/3da525a1-1a36-4932-ba1c-0eede6a94285/audio/b7401a1b-ba76-40bd-abbd-411e216f34c4/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "Live A Long, Happy Life with Mark Hyman",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/2f456496-30a4-41d2-8b17-8717483dbd08/audio/7f84b986-0bd8-475a-b130-44aa2b42a3b0/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
-        title: "Demo",
+        title: "The Value of Interruptions with Janis Burl",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://cdn.simplecast.com/audio/9851d204-6f12-449d-a52d-b64efc1ccd79/episodes/feccba8b-0997-448d-8f75-32975a460712/audio/fb3747c3-7ad3-416b-b0d7-09a5d1436a71/default_tc.mp3?aid=rss_feed&feed=0aMcqx_F",
       ),
       PodCastEpisode(
         title: "Demo",
@@ -3089,148 +3109,172 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
-    name: "Demo",
-    shortDescription: "Demo",
+    name: "The Morning Brief- by The Economic Times",
+    shortDescription:
+        "To make sense of the week's hottest stories in business, economy, politics and markets, journalists from the Economic Times chat with reporters and industry leaders.",
     posterUrl:
-        "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/23/9d/ce/239dcef7-d24d-bb0b-1ed1-7b7a87d635ce/mza_7839052379663357293.jpg/1280x1280bb-75.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/4d/48/d2/4d48d262-7fdf-4681-9352-ca34b3f9d9a7/mza_13713355823324564409.jpg/1280x1280bb-75.jpg",
     episodes: [
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Gold's own country: India's booming smuggling sector",
+        shortDescription: "2023-04-10",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/d942c120-9e43-44fc-bd87-afe000f9ecf2/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "The Milky Way Inflation",
+        shortDescription: "2023-04-06",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/4a54da8d-f03b-4f1b-a6a2-afdc01342277/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "AI Gets Schooled",
+        shortDescription: "2023-04-05",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/a078c7b4-2450-4ad5-bf41-afdb00f37166/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "E-20 Explained: The blender’s pride or bane?",
+        shortDescription: "2023-04-03",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/2b67f58f-2e23-4916-9774-afd901224796/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Will music streaming platforms survive in India?",
+        shortDescription: "2023-03-30",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/845a4879-9f9d-4b70-94a9-afd501303629/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Patients Before Patents or Profits",
+        shortDescription: "2023-03-29",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/845a4879-9f9d-4b70-94a9-afd501303629/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Anil Agarwal's billion woes of Vedanta",
+        shortDescription: "2023-03-27",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/0ba75021-224d-4b3d-b906-afd2010b6dad/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Vocal for Local: The Booming Dubbing Industry",
+        shortDescription: "2023-03-23",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/d921c73a-3f12-43c0-b52d-afce01395c6c/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "The DND Disaster: Why Spam Calls Just Won’t Stop!",
+        shortDescription: "2023-03-22",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/3b34cf7a-3318-4064-b6ab-afcd0107218e/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Corporate Citizenship - The Marico Way",
+        shortDescription: "2023-03-20",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/f3d3e0fc-2ce3-4bce-b636-afcb00aab194/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "The Dating App Paradox: Low Success Rate, Booming Business",
+        shortDescription: "2023-03-16",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/b1b56d6b-9435-48cf-9bd5-afc70123928f/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "The SVB Crisis: The Inside Track & Road Ahead",
+        shortDescription: "2023-03-15",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/b1b56d6b-9435-48cf-9bd5-afc70123928f/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Lufthansa CEO on its turnaround, India and Air India",
+        shortDescription: "2023-03-13",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/6b4e4760-f045-4ec3-988c-afc40128e24f/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "India's Great Economic Divide Across Five Sectors",
+        shortDescription: "2023-03-09",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/dc379920-7772-46c1-8ec4-afc0012a3a4e/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "India's First Lady of Forensics",
+        shortDescription: "2023-03-07",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/4eb210af-f829-49d0-9ef0-afbe00ad4d86/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Rajiv Jain's Adani Adventures",
+        shortDescription: "2023-03-06",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/5a50f402-3548-40e6-b92e-afbd012b1ad4/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Upcoming: India's First Lady of Forensics",
+        shortDescription: "2023-03-05",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/6493ce0e-e7ef-4adb-ad0f-afbc014285f9/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Board Games: India's Latest Successful Startups",
+        shortDescription: "2023-03-02",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/79e069bf-5a2f-4487-b5a9-afb90124e3a0/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "PCOS, the epidemic that needs immediate attention",
+        shortDescription: "2023-03-01",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/f6536c9d-d387-49e0-9dbf-afb8010738ac/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Markets in March: Only fear and no greed",
+        shortDescription: "2023-02-27",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/c54398ce-6430-442d-85d0-afb60133ac45/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Angel Tax, the demon that haunts startups",
+        shortDescription: "2023-02-23",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/63e33a77-1b40-4f97-aa0d-afb200e7ac8b/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Lithium: India's Quest for White Gold",
+        shortDescription: "2023-02-22",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/a8e781d4-923f-4e40-8a15-afb100f82e59/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
+        title: "Can Air India be an Emirates?",
+        shortDescription: "2023-02-20",
         posterUrl: "",
-        audioSourceUrl: "demo",
+        audioSourceUrl:
+            "https://traffic.omny.fm/d/clips/60b2e926-e5f8-4b90-a465-aef901163001/95fd7c59-790d-496e-bbde-aef901167fe4/c76297f1-6664-403f-b08a-afaf0109ea5b/audio.mp3?utm_source=Podcast&in_playlist=8ae54763-9925-40ca-8c3d-aef901167ffb",
       ),
       PodCastEpisode(
         title: "Demo",
@@ -3334,7 +3378,7 @@ List<PodCast> listOfPodCasts = [
     name: "Demo",
     shortDescription: "Demo",
     posterUrl:
-        "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/23/9d/ce/239dcef7-d24d-bb0b-1ed1-7b7a87d635ce/mza_7839052379663357293.jpg/1280x1280bb-75.jpg",
+        "https://images.unsplash.com/photo-1593697909683-bccb1b9e68a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80",
     episodes: [
       PodCastEpisode(
         title: "Demo",
