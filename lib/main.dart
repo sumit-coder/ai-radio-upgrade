@@ -7,8 +7,10 @@ import 'package:ai_govinds_radio/utils/app_consts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 
 import 'pages/splash_screen.dart';
+import 'provider/audio_player_provider.dart';
 
 class MyHttpOverrides extends HttpOverrides {
   @override
@@ -31,14 +33,21 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: MyConst.appDisplayName,
-      theme: ThemeData(
-        fontFamily: GoogleFonts.poppins().fontFamily,
-        useMaterial3: true,
+    return MultiProvider(
+      providers: [
+        // Provider<AudioPlayerProvider>(create: (_) => AudioPlayerProvider()),
+        ChangeNotifierProvider(create: (_) => AudioPlayerProvider()),
+      ],
+      child: MaterialApp(
+        showPerformanceOverlay: true,
+        title: MyConst.appDisplayName,
+        theme: ThemeData(
+          fontFamily: GoogleFonts.poppins().fontFamily,
+          useMaterial3: true,
+        ),
+        debugShowCheckedModeBanner: false,
+        home: SplashScreen(),
       ),
-      debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
     );
   }
 }

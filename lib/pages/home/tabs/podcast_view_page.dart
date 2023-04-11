@@ -1,5 +1,9 @@
 import 'package:ai_govinds_radio/model/podcast_model.dart';
+import 'package:ai_govinds_radio/provider/audio_player_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import 'package:audioplayers/audioplayers.dart';
 
 class PodCastViewPage extends StatelessWidget {
   const PodCastViewPage({Key? key, required this.podCast}) : super(key: key);
@@ -8,6 +12,7 @@ class PodCastViewPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var audioProvider = Provider.of<AudioPlayerProvider>(context);
     return Scaffold(
       backgroundColor: const Color(0xFF2C293A),
       body: SafeArea(
@@ -86,7 +91,117 @@ class PodCastViewPage extends StatelessWidget {
               ),
             ),
             Container(
-              child: const Text('afsdf'),
+              child: Column(
+                children: [
+                  StreamBuilder<Duration>(
+                    stream: audioProvider.audioPlayer.onPositionChanged,
+                    builder: (context, snapshot) {
+                      if (snapshot.hasData) {
+                        // return Text("${snapshot.data!.inMinutes}:${snapshot.data!.inSeconds}".toString());
+                        return Column(
+                          children: [
+                            Container(
+                              child: FutureBuilder(
+                                future: audioProvider.audioPlayer.getDuration(),
+                                builder: (context, audioDuration) {
+                                  return SliderTheme(
+                                    data: const SliderThemeData(
+                                      thumbShape: RoundSliderThumbShape(
+                                        enabledThumbRadius: 8.0,
+                                        pressedElevation: 2.0,
+                                      ),
+                                      overlayShape: RoundSliderOverlayShape(overlayRadius: 16.0),
+                                    ),
+                                    child: Slider(
+                                      max: audioDuration.data!.inSeconds.toDouble(),
+                                      value: snapshot.data!.inSeconds.toDouble(),
+                                      onChanged: (value) {
+                                        audioProvider.audioPlayer.seek(Duration(seconds: value.toInt()));
+                                      },
+                                    ),
+                                  );
+                                },
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 16),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    formatTime(snapshot.data!.inSeconds),
+                                    style: const TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 14,
+                                    ),
+                                  ),
+                                  FutureBuilder(
+                                    future: audioProvider.audioPlayer.getDuration(),
+                                    builder: (context, audioDuration) {
+                                      return Text(
+                                        formatTime(audioDuration.data!.inSeconds.toInt()),
+                                        style: const TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 14,
+                                        ),
+                                      );
+                                    },
+                                  )
+                                ],
+                              ),
+                            ),
+                          ],
+                        );
+                      }
+                      // return Text(Duration(seconds: 5000).inMinutes.toString());
+                      return const Text('asdklf');
+                    },
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      IconButton(
+                        iconSize: 44,
+                        onPressed: () {},
+                        icon: const Icon(Icons.arrow_circle_left_rounded),
+                      ),
+                      const SizedBox(width: 24),
+                      IconButton(
+                        iconSize: 54,
+                        onPressed: () {
+                          if (audioProvider.audioPlayer.state == PlayerState.playing) {
+                            audioProvider.audioPlayer.pause();
+                          } else {
+                            audioProvider.audioPlayer.resume();
+                          }
+                        },
+                        icon: StreamBuilder<PlayerState>(
+                          stream: audioProvider.audioPlayer.onPlayerStateChanged,
+                          builder: (context, playerState) {
+                            if (playerState.hasData) {
+                              if (playerState.data == PlayerState.playing) {
+                                return const Icon(Icons.pause_circle_filled_rounded);
+                              } else {
+                                return const Icon(Icons.play_circle_filled_rounded);
+                              }
+                            }
+
+                            return const Icon(Icons.play_circle_filled_rounded);
+                          },
+                        ),
+                      ),
+                      const SizedBox(width: 24),
+                      IconButton(
+                        iconSize: 44,
+                        onPressed: () {
+                          audioProvider.audioPlayer.seek(const Duration(minutes: 50));
+                        },
+                        icon: const Icon(Icons.arrow_circle_right_rounded),
+                      ),
+                    ],
+                  )
+                ],
+              ),
             ),
             Expanded(
               child: Container(
@@ -98,7 +213,10 @@ class PodCastViewPage extends StatelessWidget {
                     return EpisodeCard(
                       imageUrl: podCast.posterUrl,
                       bodyText: podCast.episodes[index].shortDescription,
-                      onTap: () {},
+                      onTap: () {
+                        audioProvider.playAudioPlayer(podCast.episodes[index].audioSourceUrl);
+                        // audioProvider.pauseAudioPlayer();
+                      },
                       title: podCast.episodes[index].title,
                     );
                   },
@@ -109,6 +227,10 @@ class PodCastViewPage extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  String formatTime(int seconds) {
+    return '${(Duration(seconds: seconds))}'.split('.')[0].padLeft(8, '0');
   }
 }
 
@@ -145,7 +267,7 @@ class EpisodeCard extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           ),
-          SizedBox(width: 8),
+          const SizedBox(width: 8),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -161,7 +283,7 @@ class EpisodeCard extends StatelessWidget {
                     fontWeight: FontWeight.w600,
                   ),
                 ),
-                SizedBox(height: 8),
+                const SizedBox(height: 8),
                 Text(
                   bodyText,
                   maxLines: 1,
