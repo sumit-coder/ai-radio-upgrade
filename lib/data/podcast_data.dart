@@ -2,6 +2,7 @@ import '../model/podcast_model.dart';
 
 List<PodCast> listOfPodCasts = [
   PodCast(
+    id: 1,
     name: "The Joe Rogan Experience",
     shortDescription:
         "The official podcast of comedian Joe Rogan. Follow The Joe Rogan Clips show page for some of the best moments from the episodes.",
@@ -9,8 +10,7 @@ List<PodCast> listOfPodCasts = [
         "https://is4-ssl.mzstatic.com/image/thumb/Podcasts122/v4/e0/73/74/e07374ec-a986-feed-027c-5af718895a31/mza_4297001239469570007.jpg/1280x1280bb-75.jpg",
     episodes: [
       PodCastEpisode(
-        title:
-            "322 Joe Rogan Experience Review of Michael Schellenberger Et al.",
+        title: "322 Joe Rogan Experience Review of Michael Schellenberger Et al.",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -66,8 +66,7 @@ List<PodCast> listOfPodCasts = [
             "https://chrt.fm/track/B16253/https://pdst.fm/e/audioboom.com/posts/8251368.mp3?modified=1677035043&source=rss&stitched=1",
       ),
       PodCastEpisode(
-        title:
-            "314 Joe Rogan Experience Review of Krystall Ball & Saagar Enjeti Et al.",
+        title: "314 Joe Rogan Experience Review of Krystall Ball & Saagar Enjeti Et al.",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -95,8 +94,7 @@ List<PodCast> listOfPodCasts = [
             "https://chrt.fm/track/B16253/https://pdst.fm/e/audioboom.com/posts/8242355.mp3?modified=1675647051&source=rss&stitched=1",
       ),
       PodCastEpisode(
-        title:
-            "310 Joe Rogan Experience Review of Adam Curry aka The Pod Father Et al.",
+        title: "310 Joe Rogan Experience Review of Adam Curry aka The Pod Father Et al.",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -113,20 +111,17 @@ List<PodCast> listOfPodCasts = [
         title: "308 Joe Rogan Experience Review of Louis C.K. Et al.",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://pdst.fm/e/audioboom.com/posts/8236184.mp3?modified=1674699030&sid=5081029&source=rss",
+        audioSourceUrl: "https://pdst.fm/e/audioboom.com/posts/8236184.mp3?modified=1674699030&sid=5081029&source=rss",
       ),
       PodCastEpisode(
-        title:
-            "307 Joe Rogan Experience Review of Jimmy Corsetti & Ben van Kerkwyk Et al.",
+        title: "307 Joe Rogan Experience Review of Jimmy Corsetti & Ben van Kerkwyk Et al.",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chrt.fm/track/B16253/https://pdst.fm/e/audioboom.com/posts/8234600.mp3?modified=1674508026&source=rss&stitched=1",
       ),
       PodCastEpisode(
-        title:
-            "306 Joe Rogan Experience Review of Matt McCusker & Shane Gillis Et al.",
+        title: "306 Joe Rogan Experience Review of Matt McCusker & Shane Gillis Et al.",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -189,8 +184,7 @@ List<PodCast> listOfPodCasts = [
             "https://chrt.fm/track/B16253/https://pdst.fm/e/audioboom.com/posts/8201765.mp3?modified=1676955761&source=rss&stitched=1",
       ),
       PodCastEpisode(
-        title:
-            "297 Joe Rogan Experience Review of Graham Handcock & Randal Carlson Et al.",
+        title: "297 Joe Rogan Experience Review of Graham Handcock & Randal Carlson Et al.",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -199,6 +193,7 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
+    id: 2,
     name: "On Purpose- With Jay Shetty",
     shortDescription:
         "My name is Jay Shetty, and my purpose is to make wisdom go viral. I’m fortunate to have fascinating conversations with the most insightful people in the world, and on my podcast, I’m sharing those conversations with you.",
@@ -206,8 +201,7 @@ List<PodCast> listOfPodCasts = [
         "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/56/00/09/560009a3-af98-f1c8-b7e5-e33d2c5110a5/mza_1386068257063370917.jpg/1280x1280bb-75.jpg",
     episodes: [
       PodCastEpisode(
-        title:
-            "440 - 2 Ways to Deepen Your Connection with Your Partner & The Key to Strong and Lasting Relationships",
+        title: "440 - 2 Ways to Deepen Your Connection with Your Partner & The Key to Strong and Lasting Relationships",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -229,40 +223,35 @@ List<PodCast> listOfPodCasts = [
             "https://25973.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/de71cf24-9f85-416f-bd3e-4418bd1c231d/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/aaf73abc-a860-4dd8-bf8f-afd6002d7432/audio/direct/t1680246051/5_Different_Types_of_People_We_Fall_in_Love_With_Why_Seeking_External_Validation.mp3?t=1680246051&starship-rollup=v0_444434444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "437 - Stephan Labossiere ON: Signs You are Wasting Your Time in Relationships & How to Be Vulnerable to Attract Real Love",
+        title: "437 - Stephan Labossiere ON: Signs You are Wasting Your Time in Relationships & How to Be Vulnerable to Attract Real Love",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://21963.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/4dd4d9d7-6a35-4b21-a71f-d0e9776f8058/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/2a8e1fe5-15d3-4f4c-bd84-afd201188953/audio/direct/t1680758275/Stephan_Labossiere_ON_Signs_You_are_Wasting_Your_Time_in_Relationships_How_to_Be.mp3?t=1680758275&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "436 - 4 Steps to Improve Your Self Awareness to Reach Your Goals & How to Change Your Perspective on Rejection",
+        title: "436 - 4 Steps to Improve Your Self Awareness to Reach Your Goals & How to Change Your Perspective on Rejection",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26043.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/d8276047-ca88-482d-9532-8a6abe153ae2/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/29c45130-2a44-41cd-a00a-afd2011889a6/audio/direct/t1680556212/4_Steps_to_Improve_Your_Self_Awareness_to_Reach_Your_Goals_How_to_Change_Your_Pe.mp3?t=1680556212&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "435 - Dr. Will Cole ON: Why Gut Health is Impacting Your Brain Health & How to Stop Inflammation in Your Body",
+        title: "435 - Dr. Will Cole ON: Why Gut Health is Impacting Your Brain Health & How to Stop Inflammation in Your Body",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26063.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/b5a1f345-c9c1-453e-977d-941545678dd3/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/14e84866-148d-413f-ae53-afd201188b24/audio/direct/t1680556507/Dr_Will_Cole_ON_Why_Gut_Health_is_Impacting_Your_Brain_Health_How_to_Stop_Inflam.mp3?t=1680556507&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "434 - 5 Mindfulness Practices for Stress Relief in Any Workplace & 5 Simple Habits to Improve Your Focus",
+        title: "434 - 5 Mindfulness Practices for Stress Relief in Any Workplace & 5 Simple Habits to Improve Your Focus",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://27103.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/fdf37ca6-7ca3-4557-b49e-ae6dc2f4db1a/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/4ee309ec-30c9-4f4a-a3df-afd201194b93/audio/direct/t1680556505/5_Mindfulness_Practices_for_Stress_Relief_in_Any_Workplace_5_Simple_Habits_to_Im.mp3?t=1680556505&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "433 - Macklemore ON: How to Stop Letting the Past Define You & Ways to Discover your Greatest Strengths in Hard Times",
+        title: "433 - Macklemore ON: How to Stop Letting the Past Define You & Ways to Discover your Greatest Strengths in Hard Times",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -277,16 +266,14 @@ List<PodCast> listOfPodCasts = [
             "https://27093.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/de8f8d26-3c8e-42f2-9a27-4a7824ef5534/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/af99deb8-7e75-46bf-bd20-afd2011a304d/audio/direct/t1680556513/2_Dating_Mistakes_You_Unknowingly_Do_5_Ways_to_Overcome_Communication_Blocks_wit.mp3?t=1680556513&starship-rollup=v0_444434444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "431 - Lewis Howes ON: How to Physically Release Trauma & Why You Should Focus On Discipline Over Motivation to Succeed",
+        title: "431 - Lewis Howes ON: How to Physically Release Trauma & Why You Should Focus On Discipline Over Motivation to Succeed",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://27103.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/e624bc06-a129-4b72-959e-b446b9200175/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/d40d9b18-c86b-423a-a80e-afd2011a4bdd/audio/direct/t1680556510/Lewis_Howes_ON_How_to_Physically_Release_Trauma_Why_You_Should_Focus_On_Discipli.mp3?t=1680556510&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "430 - 2 Ways to Stop Anxious Thoughts & 3 Steps to Love Yourself and Build More Confidence (Special Episode)",
+        title: "430 - 2 Ways to Stop Anxious Thoughts & 3 Steps to Love Yourself and Build More Confidence (Special Episode)",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -309,48 +296,42 @@ List<PodCast> listOfPodCasts = [
             "https://26063.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/7da5df99-12d9-43b6-9fb4-ad6712bbcacb/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/2ea057d1-d621-42f2-a3ed-afd2011b71a7/audio/direct/t1680556508/4_Steps_to_Be_More_Productive_Tomorrow_How_to_Stop_Letting_Pressure_From_Others.mp3?t=1680556508&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "427 - Dr. Andrew Weil ON: How to Use Foods to Fight Inflammation & Scientific Ways to Spark Your Creativity",
+        title: "427 - Dr. Andrew Weil ON: How to Use Foods to Fight Inflammation & Scientific Ways to Spark Your Creativity",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://27113.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/411e4bd7-227f-4b27-b39e-0bc3b477d5a8/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/783198ab-fe9e-46de-8579-afd2011b73d5/audio/direct/t1680556508/Dr_Andrew_Weil_ON_How_to_Use_Foods_to_Fight_Inflammation_Scientific_Ways_to_Spar.mp3?t=1680556508&starship-rollup=v0_441144444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "426 - Raquelle Stevens & Tanya Rad ON: Overcoming Imposter Syndrome & Finding True Purpose by Redefining Success",
+        title: "426 - Raquelle Stevens & Tanya Rad ON: Overcoming Imposter Syndrome & Finding True Purpose by Redefining Success",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://27123.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/99db4a4c-18d9-4f42-8ceb-c1e490299661/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/e2593a9d-62fc-4723-ac37-afd2011c3742/audio/direct/t1680556511/Raquelle_Stevens_Tanya_Rad_ON_Overcoming_Imposter_Syndrome_Finding_True_Purpose.mp3?t=1680556511&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "425 - Jay & His Wife Radhi ON: How to Stop Parenting Your Partner & The “Perfect” Relationship Myth",
+        title: "425 - Jay & His Wife Radhi ON: How to Stop Parenting Your Partner & The “Perfect” Relationship Myth",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://22783.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/c7d082fb-17fe-409b-9c53-c6a1ca84b815/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/37f27b77-1787-4fe2-8753-afd2011c64cc/audio/direct/t1680556509/Jay_His_Wife_Radhi_ON_How_to_Stop_Parenting_Your_Partner_The_Perfect_Relationshi.mp3?t=1680556509&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "424 - 6 Red Flags to Avoid in Relationships and How to Spot Them Early",
+        title: "424 - 6 Red Flags to Avoid in Relationships and How to Spot Them Early",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://27103.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/8763a09f-b6d5-4011-a7ee-aaa15aa82f10/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/4d4bd0ac-0ef2-40e2-9b20-afd2011c9553/audio/direct/t1680556505/6_Red_Flags_to_Avoid_in_Relationships_and_How_to_Spot_Them_Early.mp3?t=1680556505&starship-rollup=v0_443424444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "423 - Robert Waldinger ON: Why We Struggle to Connect & How to Stop Toxic Habits from Breaking Our Spirit",
+        title: "423 - Robert Waldinger ON: Why We Struggle to Connect & How to Stop Toxic Habits from Breaking Our Spirit",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26823.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/eeee0aeb-859a-4f01-863d-b3dcd8c68318/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/865e3bf3-77dd-4723-a8da-afd2011d175a/audio/direct/t1680556508/Robert_Waldinger_ON_Why_We_Struggle_to_Connect_How_to_Stop_Toxic_Habits_from_Bre.mp3?t=1680556508&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "422 - 4 Proven Strategies for Dating and Relationships & Unlock the Secrets to Lasting Love (Special Episode)",
+        title: "422 - 4 Proven Strategies for Dating and Relationships & Unlock the Secrets to Lasting Love (Special Episode)",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -365,8 +346,7 @@ List<PodCast> listOfPodCasts = [
             "https://26833.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/869f8003-b956-4272-bd85-f3bedf293a52/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/4b55e453-0873-45d4-a4b5-afd2011d7a8a/audio/direct/t1680556507/Drew_Barrymore_ON_Reframing_Society's_Expectations_of_Love_How_to_Know_When_to_L.mp3?t=1680556507&starship-rollup=v0_444334444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "420 - 3 Scientific Reasons Why We Lose The Spark and 3 Ways To Get It Back",
+        title: "420 - 3 Scientific Reasons Why We Lose The Spark and 3 Ways To Get It Back",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -381,184 +361,161 @@ List<PodCast> listOfPodCasts = [
             "https://21963.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/069567f7-2610-4e93-8e5c-1aa4f7121522/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/45b5922e-6ac3-4edf-858e-afd2011e1e1b/audio/direct/t1680556508/Lewis_Hamilton_ON_Why_You_Should_Stop_Chasing_Society's_Definition_of_Success_Ho.mp3?t=1680556508&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "418 - 6 Scientifically Proven Ways to Improve Work-Life Balance & Reduce Stress",
+        title: "418 - 6 Scientifically Proven Ways to Improve Work-Life Balance & Reduce Stress",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://22783.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/8ab4d5d3-0f19-4521-a0b1-e2f01b6725b2/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/6341cdec-f142-426a-b920-afd2011e4b31/audio/direct/t1680556509/6_Scientifically_Proven_Ways_to_Improve_Work-Life_Balance_Reduce_Stress.mp3?t=1680556509&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "417 - Mel Robbins ON: Letting Go of Negative Thoughts & Redirecting Your Energy to Self Transformation",
+        title: "417 - Mel Robbins ON: Letting Go of Negative Thoughts & Redirecting Your Energy to Self Transformation",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26063.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/fae553f3-4e15-481e-9f11-f6b8ae70884b/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/bfd09a52-f859-4924-9a00-afd2011e74d4/audio/direct/t1680556511/Mel_Robbins_ON_Letting_Go_of_Negative_Thoughts_Redirecting_Your_Energy_to_Self_T.mp3?t=1680556511&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "416 - 6 Ways to Be a Great Friend & Build Meaningful Relationships in 2023",
+        title: "416 - 6 Ways to Be a Great Friend & Build Meaningful Relationships in 2023",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://27073.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/a4710b66-7fcd-4bf6-abc1-d82ecab07ab1/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/8ea2bdbc-cebb-4e14-84a3-afd2011eb991/audio/direct/t1680556511/6_Ways_to_Be_a_Great_Friend_Build_Meaningful_Relationships_in_2023.mp3?t=1680556511&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "415 - Kevin Hart ON: How to Conquer Your Fear of Failing & Processing the Obstacles of Forgiveness, Love, and Loss",
+        title: "415 - Kevin Hart ON: How to Conquer Your Fear of Failing & Processing the Obstacles of Forgiveness, Love, and Loss",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://21913.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/7995d790-d998-4e8f-8bac-1017eb9a8334/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/26615014-c037-4f7c-a158-afd2011f2fb3/audio/direct/t1680556512/Kevin_Hart_ON_How_to_Conquer_Your_Fear_of_Failing_Processing_the_Obstacles_of_Fo.mp3?t=1680556512&starship-rollup=v0_441444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "414 - The 4-Tier Framework to Effective Goal Setting & Why You've Failed in the Past",
+        title: "414 - The 4-Tier Framework to Effective Goal Setting & Why You've Failed in the Past",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://25983.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/31911a7d-421e-463c-ba86-9cde27678d15/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/ae35ede7-094f-43a8-82a1-afd2011f4db8/audio/direct/t1680556507/The_4-Tier_Framework_to_Effective_Goal_Setting_Why_You've_Failed_in_the_Past.mp3?t=1680556507&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "413 - Mark Hyman ON: How Food Can Heal or Damage Your Health & Biological Secrets to Longevity",
+        title: "413 - Mark Hyman ON: How Food Can Heal or Damage Your Health & Biological Secrets to Longevity",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26003.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/d7025bd5-b7cb-4886-b6b1-f0ac2ba6d404/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/daa00e88-d772-4397-8273-afd2011f910c/audio/direct/t1680556513/Mark_Hyman_ON_How_Food_Can_Heal_or_Damage_Your_Health_Biological_Secrets_to_Long.mp3?t=1680556513&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "411 - Humble the Poet ON: How to Get Out Your Own Way to Find Love & Breaking Society's Common Myths About Relationships",
+        title: "411 - Humble the Poet ON: How to Get Out Your Own Way to Find Love & Breaking Society's Common Myths About Relationships",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://25973.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/5db254bf-d1e1-42ce-99a1-75cca3b862b8/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/c4ff7f37-32d5-4bde-a626-afd2012055ea/audio/direct/t1680556511/Humble_the_Poet_ON_How_to_Get_Out_Your_Own_Way_to_Find_Love_Breaking_Society's_C.mp3?t=1680556511&starship-rollup=v0_443444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "410 - 3 Ways to Know if You are Being Codependent & Why We Should Practice Forgiveness",
+        title: "410 - 3 Ways to Know if You are Being Codependent & Why We Should Practice Forgiveness",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://27073.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/0e6a4ccb-c7d1-4a7e-8eb9-6e84a9e471a8/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/32807e5a-2610-4fd0-a741-afd20120778d/audio/direct/t1680556509/3_Ways_to_Know_if_You_are_Being_Codependent_Why_We_Should_Practice_Forgiveness.mp3?t=1680556509&starship-rollup=v0_444434444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "409 - Roxie Nafousi ON: Manifestation Masterclass & How to Set Better Intentions to Attract Your Dream Life",
+        title: "409 - Roxie Nafousi ON: Manifestation Masterclass & How to Set Better Intentions to Attract Your Dream Life",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26003.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/87108032-0794-422d-8868-7a2f051931c6/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/9d275eb0-9dc6-416a-b5fc-afd20120a35e/audio/direct/t1680556511/Roxie_Nafousi_ON_Manifestation_Masterclass_How_to_Set_Better_Intentions_to_Attra.mp3?t=1680556511&starship-rollup=v0_442444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "408 - 7 Powerful Questions to Successfully Reflect on 2022 & End the Year with Confidence",
+        title: "408 - 7 Powerful Questions to Successfully Reflect on 2022 & End the Year with Confidence",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://27093.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/7e5c8a48-eafd-4c98-9c69-c00096c29e22/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/a5409ee1-d01e-4999-8554-afd2012152f9/audio/direct/t1680556510/7_Powerful_Questions_to_Successfully_Reflect_on_2022_End_the_Year_with_Confidenc.mp3?t=1680556510&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "407 - Dr. Ramani ON: How to Spot a Narcissist & 3 Signs of Gaslighting in Any Relationship",
+        title: "407 - Dr. Ramani ON: How to Spot a Narcissist & 3 Signs of Gaslighting in Any Relationship",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://21913.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/096d6ecf-a519-4947-8681-803d643f38ca/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/dd7c17d0-f6dd-4362-a490-afd2012170bc/audio/direct/t1680556509/Dr_Ramani_ON_How_to_Spot_a_Narcissist_3_Signs_of_Gaslighting_in_Any_Relationship.mp3?t=1680556509&starship-rollup=v0_443444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "406 - 3 Ways to Get Out of Your Comfort Zone & 3 Ways to Challenge Yourself This Week",
+        title: "406 - 3 Ways to Get Out of Your Comfort Zone & 3 Ways to Challenge Yourself This Week",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26823.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/1b13cf46-6b35-470b-8ed6-cb27d8cf13d0/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/fd1ec9f0-4966-4cb7-9948-afd20121b09c/audio/direct/t1680556509/3_Ways_to_Get_Out_of_Your_Comfort_Zone_3_Ways_to_Challenge_Yourself_This_Week.mp3?t=1680556509&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "405 - Trevor Noah ON: How to Turn Bad Experiences into Healing Experiences & Finding Calm in Chaos",
+        title: "405 - Trevor Noah ON: How to Turn Bad Experiences into Healing Experiences & Finding Calm in Chaos",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://27123.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/e9d02a78-fdd0-4867-a46f-5c58349910e0/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/dbc08395-7ef2-46b5-93fa-afd20121ca88/audio/direct/t1680556514/Trevor_Noah_ON_How_to_Turn_Bad_Experiences_into_Healing_Experiences_Finding_Calm.mp3?t=1680556514&starship-rollup=v0_443444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "404 - 3 Dates Every Couple Needs to Go On & 3 Conversations You Shouldn't Avoid",
+        title: "404 - 3 Dates Every Couple Needs to Go On & 3 Conversations You Shouldn't Avoid",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26073.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/8c17831a-f5d9-40cd-a862-a4d29629a413/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/49d8a568-2e92-4b25-8ad9-afd20122295f/audio/direct/t1680556510/3_Dates_Every_Couple_Needs_to_Go_On_3_Conversations_You_Shouldn't_Avoid.mp3?t=1680556510&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "403 - Jim Kwik ON: Why You Feel Burned Out & How to Break Free From Your Limiting Beliefs",
+        title: "403 - Jim Kwik ON: Why You Feel Burned Out & How to Break Free From Your Limiting Beliefs",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26003.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/61e27251-a27c-4cc2-8c93-082d994aa71b/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/bcf6cd68-a603-4cad-bff6-afd201227c4f/audio/direct/t1680556510/Jim_Kwik_ON_Why_You_Feel_Burned_Out_How_to_Break_Free_From_Your_Limiting_Beliefs.mp3?t=1680556510&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "402 - 2 Misconceptions About Love & How to Turn Toxicity into Healthy Boundaries",
+        title: "402 - 2 Misconceptions About Love & How to Turn Toxicity into Healthy Boundaries",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26043.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/a47ba94d-43ac-405d-bb54-6894093ad153/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/2628cf40-b2c4-4e2f-8848-afd20122fa15/audio/direct/t1680556508/2_Misconceptions_About_Love_How_to_Turn_Toxicity_into_Healthy_Boundaries.mp3?t=1680556508&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "401 - Joe Jonas ON: The Fear of Failing & How to Find Courage to Leave Your Comfort Zone",
+        title: "401 - Joe Jonas ON: The Fear of Failing & How to Find Courage to Leave Your Comfort Zone",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26063.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/e092b466-a77b-423a-abab-5e1529adf5ce/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/31adc1f6-453c-44b2-b88a-afd2012307fe/audio/direct/t1680556509/Joe_Jonas_ON_The_Fear_of_Failing_How_to_Find_Courage_to_Leave_Your_Comfort_Zone.mp3?t=1680556509&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "400 - 4 Relationship Struggles We Go Through and 6 Steps to Connect More Deeply",
+        title: "400 - 4 Relationship Struggles We Go Through and 6 Steps to Connect More Deeply",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://21963.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/9229cf6c-4073-4995-bbe0-2d9de1a3743b/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/34a8038c-8078-4a54-846e-afd201233dd2/audio/direct/t1680556506/4_Relationship_Struggles_We_Go_Through_and_6_Steps_to_Connect_More_Deeply.mp3?t=1680556506&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "399 - Ray Dalio ON: Principles for Making Better Decisions & How to Strengthen Relationships for Long-Term Success",
+        title: "399 - Ray Dalio ON: Principles for Making Better Decisions & How to Strengthen Relationships for Long-Term Success",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26833.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/e7b7893d-7e59-464a-9b43-c377dfc09a36/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/b2c66ba1-ad3a-44a7-9f39-afd20123c220/audio/direct/t1680556511/Ray_Dalio_ON_Principles_for_Making_Better_Decisions_How_to_Strengthen_Relationsh.mp3?t=1680556511&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "398 - 2 Transformational Habits To Change Your Mental State & How to Refine Your Intentions for a Happier, Fulfilled Life",
+        title: "398 - 2 Transformational Habits To Change Your Mental State & How to Refine Your Intentions for a Happier, Fulfilled Life",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://25983.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/6d506dab-b971-4c57-b6f3-998ecf874e01/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/4ce742fa-776e-4898-80dc-afd20123e859/audio/direct/t1680556506/2_Transformational_Habits_To_Change_Your_Mental_State_How_to_Refine_Your_Intenti.mp3?t=1680556506&starship-rollup=v0_442444434444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "397 - Selena Gomez ON: Befriending Your Inner-Critic & How to Speak to Yourself With More Compassion",
+        title: "397 - Selena Gomez ON: Befriending Your Inner-Critic & How to Speak to Yourself With More Compassion",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://27083.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/3c56253c-a6e5-4c26-b86e-2b076fd62044/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/074c568c-948e-4ef2-8441-afd20123f5b1/audio/direct/t1680556514/Selena_Gomez_ON_Befriending_Your_Inner-Critic_How_to_Speak_to_Yourself_With_More.mp3?t=1680556514&starship-rollup=v0_444444434444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "396 - #1 Daily Habit to Transform Your Life & How to Set Intentions That Actually Work",
+        title: "396 - #1 Daily Habit to Transform Your Life & How to Set Intentions That Actually Work",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://26003.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/cb430abf-3b04-49fb-a486-4a72204ebbc6/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/348bae88-348a-49e5-ae5c-afd20124729a/audio/direct/t1680556512/1_Daily_Habit_to_Transform_Your_Life_How_to_Set_Intentions_That_Actually_Work.mp3?t=1680556512&starship-rollup=v0_444344444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "395 - Susan Wojcicki ON: How to Avoid Burnout in a Leadership Role & Learning to Celebrate the Small Wins",
+        title: "395 - Susan Wojcicki ON: How to Avoid Burnout in a Leadership Role & Learning to Celebrate the Small Wins",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -573,24 +530,21 @@ List<PodCast> listOfPodCasts = [
             "https://25973.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/caa9daa7-bcff-4054-8835-6bd4e7646a22/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/b430adbc-d3a0-4877-a4db-afd20125585b/audio/direct/t1680556569/3_Ways_to_Find_Closure_from_Childhood_Pain_How_to_Develop_Healthy_Coping_Mechani.mp3?t=1680556569&starship-rollup=v0_444344444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "393 - Dr. Gabor Maté ON: Understanding Your Trauma & How to Heal Emotional Wounds to Start Moving On From the Past Today",
+        title: "393 - Dr. Gabor Maté ON: Understanding Your Trauma & How to Heal Emotional Wounds to Start Moving On From the Past Today",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://22783.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/5d41d426-3661-4ddb-bc36-b82988208f4b/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/f96de4b1-f74e-4525-8576-afd201256f13/audio/direct/t1680556571/Dr_Gabor_Mat_ON_Understanding_Your_Trauma_How_to_Heal_Emotional_Wounds_to_Start.mp3?t=1680556571&starship-rollup=v0_443444414444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "392 - 5 Boundaries to Set in Relationships & 3 Ways to Use Them Effectively",
+        title: "392 - 5 Boundaries to Set in Relationships & 3 Ways to Use Them Effectively",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://27123.mc.tritondigital.com/OMNY_ONPURPOSEWITH_PODCAST_P/media-session/77942c34-1459-47ed-adca-6f571f720eec/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/32f1779e-bc01-4d36-89e6-afcb01070c82/48532b95-131a-4baf-80ef-afd20125bd95/audio/direct/t1680556567/5_Boundaries_to_Set_in_Relationships_3_Ways_to_Use_Them_Effectively.mp3?t=1680556567&starship-rollup=v0_444444444444&in_playlist=e0c8382f-48d4-42bb-89d5-afcb01075cb4&utm_source=Podcast",
       ),
       PodCastEpisode(
-        title:
-            "391 - John Legend ON: Growing From Grief & How to Turn Childhood Adversities into Fuel for Your Passion",
+        title: "391 - John Legend ON: Growing From Grief & How to Turn Childhood Adversities into Fuel for Your Passion",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -599,127 +553,112 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
+    id: 3,
     name: "Sabka Malik Tech",
     shortDescription:
         "Sabka Maalik Tech is a technology podcast in Hindi-featuring three tech journalists who discuss latest tech news, smartphones, apps, tech policies and more in the most informal way.",
-    posterUrl:
-        "https://akm-img-a-in.tosshub.com/aajtak/images/category/sabka-malik-tech-1.jpg?size=400:400",
+    posterUrl: "https://akm-img-a-in.tosshub.com/aajtak/images/category/sabka-malik-tech-1.jpg?size=400:400",
     episodes: [
       PodCastEpisode(
-        title:
-            "एलन मस्क ने Twitter का लोगो बदला, OnePlus ने लॉन्च किए दो धांसू डिवाइस: सबका मालिक Tech Ep 111",
+        title: "एलन मस्क ने Twitter का लोगो बदला, OnePlus ने लॉन्च किए दो धांसू डिवाइस: सबका मालिक Tech Ep 111",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/39833672?episode_id=53452673&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681066388&media_type=static&Expires=1681325588&Key-Pair-Id=K1J2BR3INU6RYD&Signature=bpVeLhbCY1dG0~M8XYUJutOiQcEflo9Y~POdrmbn8-GWpiIaULGaBL2HteDCEadCdnpxN6bB3ImbClMNFWyG-BAJAkwC096svA3fUMtaPul7LZbW5LQ3SV89mtrq7XMwLq7DHOc6KqLKHbRkJ5Ji3zrkIQJdZEaI1RTSn29lPMbduzNDEK0AfrufJS-W-lwGa0kTmNXyb14klkVqrGL9FLh0h2HyPSzp-wBNzP3f1V62EGRcStzS0J1ourSJ097tJ0TEjT1huSAfLhHpfnPNYqW3jivdf1jsTP61o4br-WZIH2-QNr~J5Vw~Z2~9bQXzqQyjbSiccy9tZhkuIv9yTw__",
       ),
       PodCastEpisode(
-        title:
-            "अप्रैल में Twitter क्या आपका Blue Tick छीन लेगा, Samsung के A 54,A 34 वैल्यू फॉर मनी हैं?: सबका मालिक Tech Ep 110",
+        title: "अप्रैल में Twitter क्या आपका Blue Tick छीन लेगा, Samsung के A 54,A 34 वैल्यू फॉर मनी हैं?: सबका मालिक Tech Ep 110",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/39768110?episode_id=53379608&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681066422&media_type=static&Expires=1681325622&Key-Pair-Id=K1J2BR3INU6RYD&Signature=pODIIZIRV86Lo7ERhw0Dm7p1tmnWZ27nGApXLfBiQ--5GXDwK8WdKeKhUbs1uXgveLT4s56D98hsDMbdZY3wYvDLHMckIcU9gZqf47lCKhrDrckuizsQM-5vYY1WUC223kVlSXexQj1VKXja7bJSaPFCYnc~YLF~7oJrOK1cF4~lrsxlG387MxRucAq-zYwM3KgvFOxLowh6fK6QPlYpfb2ehhaTcVCFdSpV352uFDXKqO468VlapQxtYYDfbxN2lsxigBOKgB7Hbg2O49ohvzLvjH-h2Unmhz51ELuFYZiA9zkK0XoU6UOqM1ZhPruW5hAsmbh6CrxzFhErn2N1ZA__",
       ),
       PodCastEpisode(
-        title:
-            "ChatGPT-4 आपकी जॉब का दोस्त या दुश्मन, 56 हज़ार के Air Purifier में क्या ख़ास है? : सबका मालिक Tech Ep 109",
+        title: "ChatGPT-4 आपकी जॉब का दोस्त या दुश्मन, 56 हज़ार के Air Purifier में क्या ख़ास है? : सबका मालिक Tech Ep 109",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/39690866?episode_id=53294987&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067368&media_type=static&Expires=1681326568&Key-Pair-Id=K1J2BR3INU6RYD&Signature=ZOpX4chpkRsmDCTfq26c7YHnE55XQxB-lnrqPzT~egK6Yo1oP0zc9dSrUK5zlhOl3Ew6gPY33iflSqUga0cXN3mfu5IZStmOVzHpoNct~FQ1XCzLDOZ-2ABUuuqzVvHjAv72DEaNheV4Z~KQMd0eiMDB5K8uyrNpqjlqWSZpB26mLml8ChTJoT4aeW0b829OxYBJkWQjhpxvJQ3HxfgrHRUFbIwIggwhM5NRYAstz03Z2fKqYtAPtBxknneYejWN8u-Rkl6JdDa0rO7vnPnCF9AnBH2ieQ4g68drqLFrxXKFGYRedWnNsttJanif1uPnu8zJiMWATUeVfhUEX2OJqg__",
       ),
       PodCastEpisode(
-        title:
-            "Moon की फोटो लेने वाले Samsung फोन्स का राज़, One Plus 11 और 11R की बारीक़ी: सबका मालिक Tech Ep 108",
+        title: "Moon की फोटो लेने वाले Samsung फोन्स का राज़, One Plus 11 और 11R की बारीक़ी: सबका मालिक Tech Ep 108",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/39614545?episode_id=53211789&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067500&media_type=static&Expires=1681326700&Key-Pair-Id=K1J2BR3INU6RYD&Signature=nJVyXXgLOY7H~jALDYaorST5SzXVb7~KhbNfgG83hXNPH1xqJmwEnjRYD8MVXeWqmiWdpDIXmbOk~QKKTOvdNyP~SHH5RA7~uhMlzxsxPFjUPnccqQr~ZUcm6wOesd54A2pjWNgfyhYICVg49vROqEK7g6r8ycFovWigJrWFgoE--lstaL5JJbJRlDrFhcTNMTtml8z65AoHQUviHbd-2LArDeqXwC4MV-iAEEIqQJlvTUGU51VQKKR8N2VCr-hB1gky-2TbiWng4Gjx1GgpiS6JFpBI~jFBXCH8Iggshob2FLPGmyu4Lr6CX1tjXAIDTonw6lb8uVGaTr-cygJ13g__",
       ),
       PodCastEpisode(
-        title:
-            "होली पर Flipkart, Amazon की जोरदार सेल, मोबाइल वर्ल्ड कांग्रेस के किस्से : सबका मालिक Tech Ep 107",
+        title: "होली पर Flipkart, Amazon की जोरदार सेल, मोबाइल वर्ल्ड कांग्रेस के किस्से : सबका मालिक Tech Ep 107",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/39531749?episode_id=53121313&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067530&media_type=static&Expires=1681326730&Key-Pair-Id=K1J2BR3INU6RYD&Signature=pRCEAjDvgvOMLLWvjEVfWR9SArXngXyHFIHn2EJIZg-JMlh8H63OnS22WGF8jRjPP80K-Y7u0SWb5dBmuL9qDiOLLqJB0MyAK5PpucGjeJjtE0eKcbubNTk0yCjlfoWbGt5gpjG~Cx1VtHA4HC5-nWvfwGSCmCS64PyA1KXCF9eU6w3jDqfsnkZvMAWPcFfQXerBd3MVGhdfAXwvDsw~Hw1dZw5fp9Odir9u0Fv5lR9n7ccHsWKPSalnHfPQ4P1f4pz24LkHf~XEIN519X15RgnkLm6rmN8aPvQwhcmFdhLw51tD9~bv~VpAMmAS4fLf0-tKq7n4iwuay-GoF8e64g__",
       ),
       PodCastEpisode(
-        title:
-            "मोबाइल वर्ल्ड कांग्रेस इवेंट के हाईलाइट और आ गए vivo और realme के नए फ़ोन : सबका मालिक Tech Ep 106",
+        title: "मोबाइल वर्ल्ड कांग्रेस इवेंट के हाईलाइट और आ गए vivo और realme के नए फ़ोन : सबका मालिक Tech Ep 106",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/39333498?episode_id=52917004&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067533&media_type=static&Expires=1681326733&Key-Pair-Id=K1J2BR3INU6RYD&Signature=UqkhtSd3UqBpGrpGnWNbjQ-sFwDzcCs6Cpkl8VgyUSYYd-95yp-bbE7SDY7VwYjp2PKovrpXEHW~w1xdJB7irCws71~wha9WE3MOuQ6Jk0nwx8fxL~fGEXNprfmXTJXLBExKUINCYq7TT3EXKUveKThWI3BtrTqV-37L6E-xNgKy8Dp13LNn8glesLR5ypzkAsuuzS8nZkj8MIaVxJG3jLyS-gJXoS0e3AalA1Fuk3EgORfb-f4yeKNn0SP16AeAL63WIxSCbMeR5r37nI-z71PbMpmojAU3wLu-C-Y2bXl6Wq8oEK8ilgEKTWfeWFRpTLP8RUh3CWcOA10R0kD6Ug__",
       ),
       PodCastEpisode(
-        title:
-            "Rapido, Ola, Uber की बाइक टैक्सी पर बैन के नुकसान, S23 Ultra और iPhone 14 Pro की रेस में आगे कौन : सबका मालिक Tech 105",
+        title: "Rapido, Ola, Uber की बाइक टैक्सी पर बैन के नुकसान, S23 Ultra और iPhone 14 Pro की रेस में आगे कौन : सबका मालिक Tech 105",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/39242674?episode_id=52811512&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067793&media_type=static&Expires=1681326993&Key-Pair-Id=K1J2BR3INU6RYD&Signature=NLRyNW~WVNNTd6j0IgHlQBOqTmTmuZtFykRO3ePNRmVAHwzyQXZEMoi22OChw2WIe-Jk~uCQVIf5-Fj~-w4rfLotCxAEQWBm-T2uT-ophIQCEq5Usrpzc0Ci~qycUc8R5o--u90IEeHx4atm2nHx1vLLNKKRtrg1AVMlw6bcb2ysbP6X4SBclRJXiaQb3iS6YEzOwNCuAA82Y9EI~Qm6LDpOOAjBZw0Fsvd-nc2g-UsIaHEDTw2gb0Ku3IcOswb~l2v7KzAkswZle-au-mZKuusiXCCOC-jU6-XOCIw2BlgDMuBIl1qs7Lf8aPNIcshMYO7ROvmlzhCPVuFwrpEqjA__",
       ),
       PodCastEpisode(
-        title:
-            "Twitter Blue की कीमत कितनी जायज़ है और आ गया वो फ़ोन जिसका इंतजार था: सबका मालिक Tech Ep 104",
+        title: "Twitter Blue की कीमत कितनी जायज़ है और आ गया वो फ़ोन जिसका इंतजार था: सबका मालिक Tech Ep 104",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/39181375?episode_id=52740817&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067535&media_type=static&Expires=1681326735&Key-Pair-Id=K1J2BR3INU6RYD&Signature=VDYhhpZ1432xs1XCuasLj3pT89IYBavIEZ~gnxvdFMdgVecbj4cPsPpUzdtLIdxGHM~6TUcphxdGefjcZwqBbb6X85CgvLvkFtbUr2eaPg3FqC9xtFtI~4oobyKKC~HSpOGnBMcSb7yECuo8t~dt~dYUI0fVjLjEBowtdZF4z-zCFM29USNQp0GcdwPe0ZDztbHxm3VQC--LXOlG1WwB0-r~Hczf3QJn0dzUYNvcDkjb31qh5Hp5jOQIPijAR5wTLeoZVnM9feaEu4rEdJOdQCno4WPNTHCGkSipSdxOw50Exp0Gzndh8B6QKMuAr9IcAqbtaIXw7SH6geL1cZJ7VA__",
       ),
       PodCastEpisode(
-        title:
-            "Chat GPT को Bard AI पछाड़ सकता है क्या, कैसा है One Plus Series का नया फ़ोन: सबका मालिक Tech Ep 103",
+        title: "Chat GPT को Bard AI पछाड़ सकता है क्या, कैसा है One Plus Series का नया फ़ोन: सबका मालिक Tech Ep 103",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/39116940?episode_id=52669237&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067538&media_type=static&Expires=1681326738&Key-Pair-Id=K1J2BR3INU6RYD&Signature=Qx2-vDGfah478bKLVYX7hC2cOK2wlw4l7Z~S3w9CTwO~Nzsn5Zz-vGLq6j-~53Go56zMIdSuiWkSEsyJiDez1JAdc0NkFkkPQOrYYMu-hHWzG7Iag3XcTyFk40zkmaqLSaRqzxqPDQ2d2tRSoKw6yA4ET-g8gaSjXDCR4gUcaJfs7ZdTsSYEhH1zFNFypmjzzPrZqdF6-yGNcqLlJCj2nK8VRRAuuprL2B1MnWxA1K7pLkIG6~zfnRF8e20yqWSs9Iv5HV46W20RycG5d4mRWJjNsLjgdWfb~m2jlhdwDURcotEE8VG0saATucTm8Fpx7cgDV6~tAqph2rdt15uLTQ__",
       ),
       PodCastEpisode(
-        title:
-            "iPhone को टक्कर देने आई सैमसंग S23 सीरीज़ और बैटरी का दीमक कैसा बना फेसबुक : सबका मालिक Tech Ep 102",
+        title: "iPhone को टक्कर देने आई सैमसंग S23 सीरीज़ और बैटरी का दीमक कैसा बना फेसबुक : सबका मालिक Tech Ep 102",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/39057794?episode_id=52603719&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067857&media_type=static&Expires=1681327057&Key-Pair-Id=K1J2BR3INU6RYD&Signature=eUqVA2QeuS~lHcu-Uzk9dD-SOxj~skqfofYqBYxacHK3wc4K5viJRYU3RMHBEMzOuftMtqhcg5tzVanXweLCA3XEqq6NfR3h1Z4O1z6QDZy~EhdxLcfRcw~6L1yR4Xnxlvj8XfHIqAY53~sppN1YDi7LpD4UBvSYpCL-2neXKDX0bF~u5UKWLtsTflVtu4MkYCBN0kEleOrolQMTldo33c1cqZoLM5UAiFJhsOvNJwKi9hBKZJyXBNTBmsMG8hdEUJzPmC0KEEUpT5A-RTzAhqNz-Mup2cD4ZFwIdY7mrd09nQmAT7cbtoKdpyAw0JS1XA0XVedLJesG5UKDFRvbWQ__",
       ),
       PodCastEpisode(
-        title:
-            "इंडियन मोबाइल मार्किट में कौन बना नया लीडर, हेडक्वार्टर के बाहर ट्विटर का सामान नीलाम : सबका मालिक Tech Ep 101",
+        title: "इंडियन मोबाइल मार्किट में कौन बना नया लीडर, हेडक्वार्टर के बाहर ट्विटर का सामान नीलाम : सबका मालिक Tech Ep 101",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/38998098?episode_id=52537058&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067929&media_type=static&Expires=1681327129&Key-Pair-Id=K1J2BR3INU6RYD&Signature=IiH6Ai5ZTCQ5K5Iaqa93CNYLY6lx8CI0aISa02NgPKOP5U6F1rXG6fRsXeF10zt6UqhKy9EGSIgtemSnWvQHjQeUmyAWkCwZqqLo1F2waBig-uqMaX20qCP50a2fpvsC9CGqQS27TlVZA0mANtRnhwII~QGbZaet~2aTIM~5m84yOkpS3b7nMsu82ZgF07Wfe1zqCaK0iWluUaMOFFKfrGubwIZ7TniGbDepfrMYAwvlSegz6n9q2zt9uBj4P4BmX4Hyts2fSiqEHpGM-0e1ZoH7Nai1OQqNnP9C-4uCGPlY2ESUfLniuYmYK1T4y0hBRdunj0taMTWtritYh2PZyw__",
       ),
       PodCastEpisode(
-        title:
-            "ऑटो एक्सपो 2023 का Tech टूर और झुमके वाले Earbuds की मौज: सबका मालिक Tech Ep 100",
+        title: "ऑटो एक्सपो 2023 का Tech टूर और झुमके वाले Earbuds की मौज: सबका मालिक Tech Ep 100",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/38938907?episode_id=52470672&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067947&media_type=static&Expires=1681327147&Key-Pair-Id=K1J2BR3INU6RYD&Signature=GzLLAvcmTQgNWrjisH1WbDGeqCxMor0lyoMLJAs5GQ2U~f5JYVa73Vt6icdnba~fcT8Xjj4jYyWGlai1Qr83Lc6PqN-afsxg~xAxCGe6EfDDY2Fg9JW1l8oOh5H85C1ivCl5XG8Qemmsr6ILPVp6fLX0RU7oKxVXJIQrD0KvyeVvkzfUY~RvG5dU3RRfc-40aNN5iRi0g7R9uDjlbVNVc8NV150cQj99c-6XVfNRd~lhQ8sBMSpg5q2g5CEAnTH87L4tscC7N-tzkCEMI8YN2g0ZRaVmagmYFIPqQbH1N7US8Qio5kcHJ6tWDmV9JiKwKEAgyl-uor9AqYyjBIxQEQ__",
       ),
       PodCastEpisode(
-        title:
-            "बिना इंटरनेट चला पाएंगे WhatsApp, Sony के गेमिंस कंसोल PS-5 में गड़बड़ीः सबका मालिक Tech Ep 99",
+        title: "बिना इंटरनेट चला पाएंगे WhatsApp, Sony के गेमिंस कंसोल PS-5 में गड़बड़ीः सबका मालिक Tech Ep 99",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/38887631?episode_id=52411474&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067961&media_type=static&Expires=1681327161&Key-Pair-Id=K1J2BR3INU6RYD&Signature=QjsNaFvn9lICFBMve3joAwqP-pQ-KlAZi1RtIUrGWnaHn9WUiFPCwKqtfpFZ3HNBF-OdsBWJv8Ms6kjtI-fFBdfh2oRG1u22ulzeQ1PJgtMZVZG0bk3UbH2By4B~66dDHLYcbQA3NhqSYd4r6pPuUTGYS0kuitkgpyqcSTFMJRY509b-vsDelMo8RluSJSGR9LaCGtCcB3WcXiznwU-1nwXot6WJWu8-pTlSPcw3CpNFylXAq324~lAKk17EU-zJi1Kfw3jBMi6YV7k2E7mTOWDn-0-UUeKr6zNxe-0K7nMXdqqiwtY7vmE9jv8SkiYcOERoHBgfM80agdb9hJKaoA__",
       ),
       PodCastEpisode(
-        title:
-            "2023 में लॉन्च फोन आपके कितने काम के, FB फ्रेंड से 20 लाख का धोखा : सबका मालिक Tech | Ep 98",
+        title: "2023 में लॉन्च फोन आपके कितने काम के, FB फ्रेंड से 20 लाख का धोखा : सबका मालिक Tech | Ep 98",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://d1bxy2pveef3fq.cloudfront.net/episodes/original/38834866?episode_id=52350227&show_id=4830471&user_id=13340804&organization_id=192&tenant=SPREAKER&timestamp=1681067987&media_type=static&Expires=1681327187&Key-Pair-Id=K1J2BR3INU6RYD&Signature=L6YSOFTANYlt1FNIKpQHlEKC5nR8ec~co9JEw3s6v4YGlgJWD-s6uHQZ~96k7VheY9Ig~W15T82f8SuUvSKa95vsz8A6OZcNJUFut2BPei0yrURVQ17I1j5y1GJnXIDWogFocIgzvODC~sHIhHi-RI9RU7jzGq~RA2r3cQY1iPRObiNsG3WSqeUC9iD31~B37LKNb~bI93tpH9rXgCZLDEBzA8Q1B4QERAMcGzP~qcHkQv6UQmpZo7L8N-Kje3v40N9XtRNCfSyNrGAgMNzb1IH805znaIHIGt~Xez5VR2bRa7otDvW6x6UyaBnFDhbNsuK9MAIyqVsShRL2ZLhZpQ__",
       ),
       PodCastEpisode(
-        title:
-            "2022 की सबसे ज़रूरी Tech न्यूज़ आपने मिस तो नहीं कर दी? : सबका मालिक Tech Ep 97",
+        title: "2022 की सबसे ज़रूरी Tech न्यूज़ आपने मिस तो नहीं कर दी? : सबका मालिक Tech Ep 97",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -728,6 +667,7 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
+    id: 4,
     name: "TED Talks Daily by TED",
     shortDescription:
         "TED Talks Daily brings you the latest talks in audio. Join host and journalist Elise Hu for thought-provoking ideas on every subject imaginable -- from Artificial Intelligence to Zoology, and everything in between -- given by the world's leading thinkers and creators. With TED Talks Daily, find some space in your day to change your perspectives, ignite your curiosity, and learn something new.",
@@ -735,40 +675,35 @@ List<PodCast> listOfPodCasts = [
         "https://is4-ssl.mzstatic.com/image/thumb/Podcasts115/v4/d2/09/d5/d209d58f-8f9f-c2aa-3c59-0ffc4e5e35ec/mza_11998461689189714171.png/1280x1280bb-75.jpg",
     episodes: [
       PodCastEpisode(
-        title:
-            "2401 - The rise of the TRAUMA ESSAY in college applications | Tina Yong",
+        title: "2401 - The rise of the TRAUMA ESSAY in college applications | Tina Yong",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://dovetail3-cdn.prxu.org/70/ff38d697-ab48-4526-856c-36fd60bd65ee/913D-R5odFG4BIWO1AwFVWACFKXY_oaN9IUYtZorlJM/TinaYong_2022X_VO_Intro.mp3?le=tZVdXbCn4RTUgF5xqibmjgaldEVf6YQ-BLOoH4Ffuos&exp=1681151211",
       ),
       PodCastEpisode(
-        title:
-            "2400 - What will the dream car of the future be like? | Alex Koster",
+        title: "2400 - What will the dream car of the future be like? | Alex Koster",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/50c87073-50e2-4604-8726-b30c65786788/AlexKoster_2022S_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2399 - 5 Steps to building a personal brand you feel good about | Marcos Salazar",
+        title: "2399 - 5 Steps to building a personal brand you feel good about | Marcos Salazar",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/08e0e4f1-1ed7-4a1c-9a2b-56eb3d376361/MarcosSalazarWWW_2022V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2398 - A faster way to get to a clean energy future | Ramez Naam",
+        title: "2398 - A faster way to get to a clean energy future | Ramez Naam",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/6035680f-4e7d-461c-95d2-7efb70dade08/RamezNaam_2022T_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2397 - 3 questions to build resilience -- and change the world | Sister True Dedication",
+        title: "2397 - 3 questions to build resilience -- and change the world | Sister True Dedication",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -782,8 +717,7 @@ List<PodCast> listOfPodCasts = [
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/ad1b8840-5686-40a4-b39a-deda3fd27b08/TEDRadioHour_MindBodySpirit_TomOxley_2023V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2395 - Why autism is often missed in women and girls | Kate Kahle",
+        title: "2395 - Why autism is often missed in women and girls | Kate Kahle",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -797,24 +731,21 @@ List<PodCast> listOfPodCasts = [
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/3a6bda97-43c9-47f2-9834-0a3f5fe3d186/AlonaFyshe_2023S_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2393 - The unexpected key to boosting your productivity | Dan Shipper",
+        title: "2393 - The unexpected key to boosting your productivity | Dan Shipper",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/cff6baec-325a-441a-b4c3-192ffb395f0e/DanShipperWWW_2022V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2392 - How music can help you find peace after loss | Steven Sharp Nelson",
+        title: "2392 - How music can help you find peace after loss | Steven Sharp Nelson",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/923e3a73-736a-4a33-a31b-55af2a394af6/StevenSharpNelson_2020X_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2391 - How do we get the world off fossil fuels quickly and fairly? | TED Countdown",
+        title: "2391 - How do we get the world off fossil fuels quickly and fairly? | TED Countdown",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -828,32 +759,28 @@ List<PodCast> listOfPodCasts = [
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/00014f16-393f-4986-af0b-c0c48fd3f03b/AlexandraHorowitz_2022H_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2389 - How to keep your hometown from becoming a ghost town | John Paget",
+        title: "2389 - How to keep your hometown from becoming a ghost town | John Paget",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/2a6e97e4-84fb-4f7c-9918-886f1a8b255f/JohnPaget_2021X_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2388 - How to calm your anxiety, from a neuroscientist | Wendy Suzuki",
+        title: "2388 - How to calm your anxiety, from a neuroscientist | Wendy Suzuki",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/c5b3a82b-8b8f-4be1-a2ea-eb4bbe553e7e/WendySuzukiWWW_2022V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2387 - What happens to gas stations when the world goes electric? | Emily Grubert",
+        title: "2387 - What happens to gas stations when the world goes electric? | Emily Grubert",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/c5b3a82b-8b8f-4be1-a2ea-eb4bbe553e7e/WendySuzukiWWW_2022V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2386 - You deserve the right to repair your stuff | Gay Gordon-Byrne",
+        title: "2386 - You deserve the right to repair your stuff | Gay Gordon-Byrne",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -867,16 +794,14 @@ List<PodCast> listOfPodCasts = [
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/73752ed3-6732-4b8f-a526-e70ecbecbc41/JeromeHunter_2023S_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2384 - The surprising psychology behind your urge to break the rules | Paul Bloom",
+        title: "2384 - The surprising psychology behind your urge to break the rules | Paul Bloom",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/8e63565d-03b1-4e4e-b0f4-0b2eeaa81bed/PaulBloom_2023S_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2383 - Your 3-step guide to setting better boundaries at work | Nedra Glover Tawwab",
+        title: "2383 - Your 3-step guide to setting better boundaries at work | Nedra Glover Tawwab",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -890,16 +815,14 @@ List<PodCast> listOfPodCasts = [
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/d647ff14-a082-4da5-8d52-a03f1e093033/OrdinaryThings_2021X_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2381 - 3 elements of true fun -- and how to have more of it | Catherine Price",
+        title: "2381 - 3 elements of true fun -- and how to have more of it | Catherine Price",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/b329204c-0979-455b-aadc-27702ef8913c/CatherinePrice_2022H_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2380 - How to be a team player -- without burning out | Rob Cross",
+        title: "2380 - How to be a team player -- without burning out | Rob Cross",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -913,16 +836,14 @@ List<PodCast> listOfPodCasts = [
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/1fce26c3-6401-48e1-95f4-e176f5ec1e8d/RobCrossWWW_2022V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2378 - How video games can level up the way you learn | Kris Alexander",
+        title: "2378 - How video games can level up the way you learn | Kris Alexander",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/1fce26c3-6401-48e1-95f4-e176f5ec1e8d/RobCrossWWW_2022V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2377 - What if women built the world they want to see? | Emily Pilloton-Lam",
+        title: "2377 - What if women built the world they want to see? | Emily Pilloton-Lam",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -936,24 +857,21 @@ List<PodCast> listOfPodCasts = [
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/48791dec-c9d1-4f34-8c5a-c17a353af4d8/RebekahShirley_2022T_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2375 - The fantastically weird world of photosynthetic sea slugs | Michael Middlebrooks",
+        title: "2375 - The fantastically weird world of photosynthetic sea slugs | Michael Middlebrooks",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/59dbf4df-c85a-4e3c-a383-2c26914de5ad/MichaelMiddlebrooks_2022X_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2374 - How to quit your job -- without ruining your career | Gala Jackson",
+        title: "2374 - How to quit your job -- without ruining your career | Gala Jackson",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/3b1e48c8-3ae0-4151-bb4b-cff2b4c85951/GalaJacksonWWW_2022V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2373 - How one small idea led to 1 million of paid water bills | Tiffani Ashley Bell",
+        title: "2373 - How one small idea led to 1 million of paid water bills | Tiffani Ashley Bell",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -967,8 +885,7 @@ List<PodCast> listOfPodCasts = [
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/0fef5584-a591-4976-bf6e-5e7038f4ba08/JamilZaki_2021_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2371 - The nostalgia behind your favorite Chinese food | Vincent Yeow Lim",
+        title: "2371 - The nostalgia behind your favorite Chinese food | Vincent Yeow Lim",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -982,72 +899,63 @@ List<PodCast> listOfPodCasts = [
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/a2147e67-f09b-4a95-ac6a-6cd40a43f0bc/SaadBhamla_2021_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2369 - 3 steps to getting what you want in a negotiation | Ruchi Sinha",
+        title: "2369 - 3 steps to getting what you want in a negotiation | Ruchi Sinha",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/aab5394a-5fed-40d8-a743-6bcf232b562b/RuchiSinhaWWW_2021V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2368 - What girls and women in sports need to unlock their potential | Kate Ackerman",
+        title: "2368 - What girls and women in sports need to unlock their potential | Kate Ackerman",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/004b86e5-ec49-422a-a45b-af6c14fd060e/KateAckerman_2022X_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2366 - The surprising climate benefits of sharing your stuff | Tessa Clarke",
+        title: "2366 - The surprising climate benefits of sharing your stuff | Tessa Clarke",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/9735ce65-5ff0-4fad-bac5-cc857cdf7430/TessaClarke_2022S_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2365 - 4 proven ways to kick your procrastination habit | Ayelet Fishbach",
+        title: "2365 - 4 proven ways to kick your procrastination habit | Ayelet Fishbach",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/ce284123-0011-4bba-97a6-19f35a84a7d7/AyeletFishbach_2022H_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2364 - The massive machines removing carbon from Earth's atmosphere | Jan Wurzbacher",
+        title: "2364 - The massive machines removing carbon from Earth's atmosphere | Jan Wurzbacher",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/0aa46dd6-3a5c-4a86-a544-9cdddf553859/JanWurzbacher_2022T_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2363 - 3 rules to help you build a successful business | Julissa Prado",
+        title: "2363 - 3 rules to help you build a successful business | Julissa Prado",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/05864bcd-7471-4b4a-8bf0-d34580aa5b00/JulissaPradoWWW_2021V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2362 - 3 steps to help kids process traumatic events | Kristen Nguyen",
+        title: "2362 - 3 steps to help kids process traumatic events | Kristen Nguyen",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/37e2410c-896a-424f-93cd-c9ba841b8fdc/KristenNguyen_2023S_VO_Intro.mp3.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2361 - What if buildings created energy instead of consuming it? | Ksenia Petrichenko",
+        title: "2361 - What if buildings created energy instead of consuming it? | Ksenia Petrichenko",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/01a47166-2177-4a6e-84cf-65a64e54b318/KseniaPetrichenko_2022T_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2360 - How everyday interactions shape your future | Mesmin Destin",
+        title: "2360 - How everyday interactions shape your future | Mesmin Destin",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1061,64 +969,56 @@ List<PodCast> listOfPodCasts = [
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/8cbff126-6b43-4d92-ba39-d7d3a9576631/LisaDamour_2022H_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2358 - 3 steps of anxiety overload -- and how you can take back control | Lisa Damour",
+        title: "2358 - 3 steps of anxiety overload -- and how you can take back control | Lisa Damour",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/3ac8ad38-0372-4db5-82ab-f9b888e0adef/AngelaGarbesWWW_2021V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2357 - What working parents really need from workplaces | Angela Garbes",
+        title: "2357 - What working parents really need from workplaces | Angela Garbes",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/3ac8ad38-0372-4db5-82ab-f9b888e0adef/AngelaGarbesWWW_2021V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2356 - Something in the Water: Where Do Great Athletes Come From? | Good Sport",
+        title: "2356 - Something in the Water: Where Do Great Athletes Come From? | Good Sport",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/cf39181b-7b6a-4d3c-95b4-2d0c2c6167c3/TimothySnyder_2022H_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2355 - Is democracy doomed? The global fight for our future | Timothy Snyder",
+        title: "2355 - Is democracy doomed? The global fight for our future | Timothy Snyder",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/8755721d-4aac-456c-ab83-63560d63d2d7/ToluOyekan_2022S_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2354 - A for-profit mindset for nonprofit success | Tolu Oyekan",
+        title: "2354 - A for-profit mindset for nonprofit success | Tolu Oyekan",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/8755721d-4aac-456c-ab83-63560d63d2d7/ToluOyekan_2022S_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2353 - 5 tips for dealing with meeting overload | Cindy Solomon",
+        title: "2353 - 5 tips for dealing with meeting overload | Cindy Solomon",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/000c8b10-319d-4c76-a563-1e840df671cc/CindySolomonWWW_2021V_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2352 - Could fungi actually be the key to humanity's survival? | David Andrew Quist",
+        title: "2352 - Could fungi actually be the key to humanity's survival? | David Andrew Quist",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://chtbl.com/track/48D18/https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/70/493a4a7a-37c6-422b-8573-fa230830575d/DavidAndrewQuist_2022X_VO_Intro.mp3",
       ),
       PodCastEpisode(
-        title:
-            "2351 - The secret to making new friends as an adult | Marisa G. Franco",
+        title: "2351 - The secret to making new friends as an adult | Marisa G. Franco",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1127,6 +1027,7 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
+    id: 5,
     name: "Gita For Daily Living- by Neil Bhatt",
     shortDescription:
         "Gita for Daily Living is a biweekly podcast that distils the wisdom of the Bhagavad Gita and presents it in a way that is action-able and relevant to daily life",
@@ -1151,29 +1052,25 @@ List<PodCast> listOfPodCasts = [
         title: "528 - Episode 446: Chapter 7, verses 13, 14 and 15 ",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/xnfxi3/Gita_Ch_7_V_13_14_15.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/xnfxi3/Gita_Ch_7_V_13_14_15.mp3",
       ),
       PodCastEpisode(
         title: "527 - Episode 445: Chapter7, verses 10,11 and 12",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/tw57v9/Gita_Ch_7_V_10_11_12.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/tw57v9/Gita_Ch_7_V_10_11_12.mp3",
       ),
       PodCastEpisode(
         title: "526 - Episode 444: Chapter 7, verses 5",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/72xx8p/Gita_Ch_7_V_5_6_7_8_9.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/72xx8p/Gita_Ch_7_V_5_6_7_8_9.mp3",
       ),
       PodCastEpisode(
         title: "525 - Episode 443: Chapter 7, verses 1",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/r34kfm/Gita_Ch_7_V_1_2_3_4.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/r34kfm/Gita_Ch_7_V_1_2_3_4.mp3",
       ),
       PodCastEpisode(
         title: "524 - Episode 442: Chapter 6, verses 46 and 47 ",
@@ -1186,8 +1083,7 @@ List<PodCast> listOfPodCasts = [
         title: "523 - Episode 441: Chapter 6, verses 43, 44 and 45",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/us5xrx/Gita_Ch_6_V_43_44_45.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/us5xrx/Gita_Ch_6_V_43_44_45.mp3",
       ),
       PodCastEpisode(
         title: "522 - Episode 440: Chapter 6, verses 40, 41 and 42",
@@ -1200,36 +1096,31 @@ List<PodCast> listOfPodCasts = [
         title: "521 - Episode 439: Chapter 6, verses 36 - 39",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/di82av/Gita_Ch_6_V_36_37_38_39.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/di82av/Gita_Ch_6_V_36_37_38_39.mp3",
       ),
       PodCastEpisode(
         title: "520 - Episode 438: Chapter 6, verses 33, 34 and 35",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/cyv6e7/Gita_Ch_6_V_33_34_35bveek.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/cyv6e7/Gita_Ch_6_V_33_34_35bveek.mp3",
       ),
       PodCastEpisode(
         title: "519 - Episode 437: Chapter 6, verses 30, 31 and 32",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/w5yfmf/Gita_Ch_6_V_30_31_32.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/w5yfmf/Gita_Ch_6_V_30_31_32.mp3",
       ),
       PodCastEpisode(
         title: "518 - Episode 436: Chapter 6, verses 27, 28 and 29",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/ye53v7/Gita_Ch_6_V_27_28_29.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/ye53v7/Gita_Ch_6_V_27_28_29.mp3",
       ),
       PodCastEpisode(
         title: "517 - Episode 435: Chapter 6, verses 24, 25 and 26",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/itjmwb/Gita_Ch_6_V_24_25_26.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/itjmwb/Gita_Ch_6_V_24_25_26.mp3",
       ),
       PodCastEpisode(
         title: "516 - Episode 434: chapter 6, verses 21,22 and 23",
@@ -1242,8 +1133,7 @@ List<PodCast> listOfPodCasts = [
         title: "515 - Episode 433: Chapter 6, verses 18, 19 and 20",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/d39r99/Gita_Ch_6_V_18_19_20.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/d39r99/Gita_Ch_6_V_18_19_20.mp3",
       ),
       PodCastEpisode(
         title: "514 - Episode 432: Chapter 6, verses 14 -17",
@@ -1256,15 +1146,13 @@ List<PodCast> listOfPodCasts = [
         title: "513 - Episode 431: Chapter 6, verses 11, 12 and 13",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/v8hzu5/Gita_Ch_6_V_11_12_13.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/v8hzu5/Gita_Ch_6_V_11_12_13.mp3",
       ),
       PodCastEpisode(
         title: "512 - Episode 430: Chapter 6, verses 7 - 10",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/3q8ixu/Gita_Ch_6_V-7_8_9_10.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/3q8ixu/Gita_Ch_6_V-7_8_9_10.mp3",
       ),
       PodCastEpisode(
         title: "511 - Episode 429: Chapter 6, verses 4,5 and 6",
@@ -1277,8 +1165,7 @@ List<PodCast> listOfPodCasts = [
         title: "510 - Episode 428: Chapter 6, verses 1, 2 and 3",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/q8dycc/Gita_Ch_6_V_1_2_3.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/q8dycc/Gita_Ch_6_V_1_2_3.mp3",
       ),
       PodCastEpisode(
         title: "509 - Episode 427: Chapter 5, verses 28 and 29",
@@ -1291,8 +1178,7 @@ List<PodCast> listOfPodCasts = [
         title: "508 - Episode 426: Chapter 5, verses 25, 26 and 27",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/gc243m/Gita_Ch_5_V_25_26_27.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/gc243m/Gita_Ch_5_V_25_26_27.mp3",
       ),
       PodCastEpisode(
         title: "507 - Episode 425: Chapter 5, verses 22, 23 and 24",
@@ -1312,22 +1198,19 @@ List<PodCast> listOfPodCasts = [
         title: "505 - Episode 423: Chapter 5, verses 16, 17 and 18",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/ajj9n5/Gita_Ch_5_V_16_17_18.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/ajj9n5/Gita_Ch_5_V_16_17_18.mp3",
       ),
       PodCastEpisode(
         title: "504 - Episode 422: Chapter 5, verses 13, 14 and 15",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/t43xqm/Gita_Ch_5_V_13_14_15.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/t43xqm/Gita_Ch_5_V_13_14_15.mp3",
       ),
       PodCastEpisode(
         title: "503 - Episode 421: Chapter 5, verses 10, 11 and 12",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://mcdn.podbean.com/mf/web/x968sc/Gita_Ch_5_V_10_11_12.mp3",
+        audioSourceUrl: "https://mcdn.podbean.com/mf/web/x968sc/Gita_Ch_5_V_10_11_12.mp3",
       ),
       PodCastEpisode(
         title: "502 - Episode 420: Chapter 5, verses 7,8 and 9",
@@ -1486,6 +1369,7 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
+    id: 6,
     name: "The Ranveer Show",
     shortDescription:
         "Ranveer Allahbadia aka BeerBiceps brings you #TheRanveerShow. Every episode has been designed to bring you some kind of value adds. Life is a never-ending self-improvement game - whether it's health, career guidance, lifestyle advice, or just plain old inspiration... Each episode will charge you up in some way. We deep dive into some of the world's most intelligent, most successful minds in order to mine out the diamonds they've created over the course of their lives. Bollywood stars, athletes, entrepreneurs, and all kinds of motivational human beings.",
@@ -1493,79 +1377,69 @@ List<PodCast> listOfPodCasts = [
         "https://is4-ssl.mzstatic.com/image/thumb/Podcasts122/v4/85/0f/b1/850fb175-b567-dd00-59c1-f1160724d494/mza_11559786574812814174.jpg/1280x1280bb-75.jpg",
     episodes: [
       PodCastEpisode(
-        title:
-            "Cricket Special With Shikhar Dhawan - Success Story, ICC, IPL & More | 152",
+        title: "Cricket Special With Shikhar Dhawan - Success Story, ICC, IPL & More | 152",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl: "demo",
       ),
       PodCastEpisode(
-        title:
-            "Rupali Ganguly Ke Dil Ko JAANIYE - Anupamaa Special Of TRS | 151",
+        title: "Rupali Ganguly Ke Dil Ko JAANIYE - Anupamaa Special Of TRS | 151",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/d25573ec-5b47-4309-b4ca-f845d51849b6/audio/37e42dc2-4b15-46e7-9305-2972d9c5058a/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Akshardham, Terrorist Attack & Combat Experiences | Col. Tushar Joshi | 150",
+        title: "Akshardham, Terrorist Attack & Combat Experiences | Col. Tushar Joshi | 150",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/c3bd11f9-5fce-4f84-9c79-e1ae45df7dfe/audio/babc5fe4-b036-4c0c-9e9b-36d33e7d6901/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Khalistan Movement, Indira Gandhi's Death & Politics - GBS Sidhu | 149",
+        title: "Khalistan Movement, Indira Gandhi's Death & Politics - GBS Sidhu | 149",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/daa680f6-64ae-4726-810a-d2c5abede117/audio/ffdd6eb9-c057-4442-963a-8a79f46f8f2a/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Sanjay B Jumaani - Numerology, Ancient Science & Bollywood Predictions | 148",
+        title: "Sanjay B Jumaani - Numerology, Ancient Science & Bollywood Predictions | 148",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/a245daac-bb87-498a-968e-6f689498364d/audio/9bc61296-fb1f-4de9-9bbc-42a9cf3d1ff8/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Bollywood's Big Comeback! Mukesh Chhabra On Casting, Films, SSR & More | 147",
+        title: "Bollywood's Big Comeback! Mukesh Chhabra On Casting, Films, SSR & More | 147",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/b87dff13-fee6-4f5d-928a-2e66f39a3d6f/audio/b69e51d0-8db1-466e-ad3d-54a00254dac5/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Virender Sehwag's Most Honest Conversation - Childhood, Cricket & More | 146",
+        title: "Virender Sehwag's Most Honest Conversation - Childhood, Cricket & More | 146",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/186aa689-466a-4dc7-825a-c9e1f67166b0/audio/256a1e6c-29d8-4992-ac9b-260475d31007/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Underworld, Politics Aur Bollywood - Crime & Kanoon Special | Adv. Pradeep Raii | 145",
+        title: "Underworld, Politics Aur Bollywood - Crime & Kanoon Special | Adv. Pradeep Raii | 145",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/138a7eb9-29ad-485f-909d-8dcefdd813ca/audio/bc2db5cc-688d-4874-9afe-937975117d37/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Burning Cricket Questions With Aakash Chopra - BCCI, Indian Cricket & Future, 144",
+        title: "Burning Cricket Questions With Aakash Chopra - BCCI, Indian Cricket & Future, 144",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/a496ce6f-85a8-4fdb-b868-89173ff3aa68/audio/efbbe707-dc7e-4263-8917-aa4de9a0786f/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Aman Gupta Unfiltered On TRS - Failures, boAt Aur Zindagi | 143",
+        title: "Aman Gupta Unfiltered On TRS - Failures, boAt Aur Zindagi | 143",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1579,24 +1453,21 @@ List<PodCast> listOfPodCasts = [
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/32115395-76a6-4e30-8952-d87a5f656657/audio/75553acf-3d1f-43dc-881d-9fce0067b22d/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "MC Stan - Violence, Vibes, Rap, Bigg Boss Aur Salman Bhai | 141",
+        title: "MC Stan - Violence, Vibes, Rap, Bigg Boss Aur Salman Bhai | 141",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/e77b3119-2ec5-4140-82b0-c5fbbeb678b2/audio/f66e28ef-2892-4faf-916b-51da47e340a8/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Tantra Explained Simply | Rajarshi Nandy - Mata, Bhairav & Kamakhya Devi | 140",
+        title: "Tantra Explained Simply | Rajarshi Nandy - Mata, Bhairav & Kamakhya Devi | 140",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/1cd8ce5e-f565-42c4-9411-610a3cfdb351/audio/8053ad4c-e132-49a9-bf90-fd97674f29b1/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Mahabharat Ki Poori Kahaani - Arjun, Shri Krishna & Yuddh - Ami Ganatra |  139",
+        title: "Mahabharat Ki Poori Kahaani - Arjun, Shri Krishna & Yuddh - Ami Ganatra |  139",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1610,24 +1481,21 @@ List<PodCast> listOfPodCasts = [
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/b897fdbb-df88-4600-a12b-1398cd3349a4/audio/e0d219ff-97ee-442e-8c08-95742ff78705/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Valentine's Week Special - Relationships, Casual S*x & More | Ekta Dixit | 137",
+        title: "Valentine's Week Special - Relationships, Casual S*x & More | Ekta Dixit | 137",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/54ed323d-c428-4031-a3fe-743addb0f8ab/audio/1682254e-d72c-42cd-ab92-32cd8799db15/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Real R&AW Agent - Spies, Intelligence & Anti Terror Missions, GBS Sidhu |  136",
+        title: "Real R&AW Agent - Spies, Intelligence & Anti Terror Missions, GBS Sidhu |  136",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/97e1548e-b971-4e6d-8bb8-cec1a702cac7/audio/20d75c99-411d-4bd4-abf7-6ea8412d0ac4/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Mitti Se Nikla Desi Netflix - STAGE Shark Tank Story, Shashank Vaishnav,  135",
+        title: "Mitti Se Nikla Desi Netflix - STAGE Shark Tank Story, Shashank Vaishnav,  135",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1641,24 +1509,21 @@ List<PodCast> listOfPodCasts = [
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/25d37896-3923-4849-87bc-779730440bf8/audio/e8e1a682-3286-466a-87ec-31c93f2f5c64/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Kaun Banega Gaming Se Crorepati? Yeh Dekho! ft. Piyush Kumar |  133",
+        title: "Kaun Banega Gaming Se Crorepati? Yeh Dekho! ft. Piyush Kumar |  133",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/77e95c2b-4a49-4841-a5e5-2db7c84485a2/audio/4dfba426-730a-4df4-9a0f-5d6674abb819/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Every Student Must Watch - My Business Mentor - Dr. Ritesh Malik |  132",
+        title: "Every Student Must Watch - My Business Mentor - Dr. Ritesh Malik |  132",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/d495c1e9-8478-4e02-b7a9-4247a5c0628f/audio/1ad63fa4-8d12-4186-90d4-2b4a8e21e348/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "High Pay Job Chahiye? Pehle Yeh Dekho - Education System Explained, Pratham Mittal |  131",
+        title: "High Pay Job Chahiye? Pehle Yeh Dekho - Education System Explained, Pratham Mittal |  131",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1672,8 +1537,7 @@ List<PodCast> listOfPodCasts = [
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/d88ed161-10ad-4a97-bb3c-d78370672009/audio/578c4661-5fd5-4c5c-88e8-4e282b83c46e/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Indian Archaeologist Anica Mann On Ancient Indian History & Tantra |  129",
+        title: "Indian Archaeologist Anica Mann On Ancient Indian History & Tantra |  129",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1708,8 +1572,7 @@ List<PodCast> listOfPodCasts = [
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/b93c7f82-d6da-4235-ab75-55feac9f1250/audio/2827eb7a-c94d-46e7-a5bd-8e68209d97a6/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Col. Rajeev - Deshdrohi Ka Saamna, 1971 Ind-Pak War Aur Gorkha Regiment |  124",
+        title: "Col. Rajeev - Deshdrohi Ka Saamna, 1971 Ind-Pak War Aur Gorkha Regiment |  124",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1723,32 +1586,28 @@ List<PodCast> listOfPodCasts = [
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/fa36b4b9-bf66-418f-969c-585feee1741b/audio/d469f615-5a1c-409e-9515-db049d8de609/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Scientific Explanation of Bhagwad Geeta - Moksh & Third Eye | Sid Warrier |  122",
+        title: "Scientific Explanation of Bhagwad Geeta - Moksh & Third Eye | Sid Warrier |  122",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/4a72bd4f-f919-48c5-b007-3d5a5eb8b0d5/audio/7327e197-3d0c-4b5c-b710-e63a17d28ebf/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "MARCOS Vijaypal Rawat - WW3, Sharks & The Lakshwadeep - Indian Navy Spl | 119",
+        title: "MARCOS Vijaypal Rawat - WW3, Sharks & The Lakshwadeep - Indian Navy Spl | 119",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/394da82a-0014-466c-b1c1-bef01b140c4a/audio/9c62cfa5-fe2e-43c3-bffd-88fc71efb072/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Hair Loss Kaise Kam Karein? - Saloni Anand Ka Hair Treatment Formula |  121",
+        title: "Hair Loss Kaise Kam Karein? - Saloni Anand Ka Hair Treatment Formula |  121",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/a83f483b-baa2-46cf-9436-29b2dee9452f/audio/de5876db-5c97-45bb-a029-9ff75d0868b0/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "IPS Vishwas Nangre Patil - 26/11 Ki Dardnaak Raat Aur Mumbai Police |  120",
+        title: "IPS Vishwas Nangre Patil - 26/11 Ki Dardnaak Raat Aur Mumbai Police |  120",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1762,48 +1621,42 @@ List<PodCast> listOfPodCasts = [
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/7cc92638-8937-450a-b345-bc7cb638a621/audio/0beb162e-ff97-4074-ad0f-f87afc84dc39/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "ASLI ARMY LEADER - LT. Gen KJS. Dhillon On War, Kashmir & Geopolitics | 117",
+        title: "ASLI ARMY LEADER - LT. Gen KJS. Dhillon On War, Kashmir & Geopolitics | 117",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/d14691fd-c33d-4d8c-b490-693d9820838f/audio/9212e345-6fbc-4740-8c39-c4456430f9c7/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Jungli Jaanwar, Maut Ka Khatra Aur Survival | Col. Tushar Joshi |  116",
+        title: "Jungli Jaanwar, Maut Ka Khatra Aur Survival | Col. Tushar Joshi |  116",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/fc44117f-3ce8-409c-8080-f5106b27e395/audio/f97f0824-60e1-4297-bb19-bd4c6e9c49e1/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Ram-Sita Ki Kahaani, Hanuman & Raavan Ki Undekhi Lanka - Vikrant Pande |  115",
+        title: "Ram-Sita Ki Kahaani, Hanuman & Raavan Ki Undekhi Lanka - Vikrant Pande |  115",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/2ccfda65-53a9-4233-9445-b8a9d0c92b31/audio/21c4698d-fe7b-4b57-adaf-a55139866306/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Hinduism Ke Secrets, Ancient Mysteries Aur Ramayan - Akshat Gupta |  114",
+        title: "Hinduism Ke Secrets, Ancient Mysteries Aur Ramayan - Akshat Gupta |  114",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/c58cc5ac-c1d4-4a10-bc2a-c7702291cde9/audio/8f2c21c8-178d-44ed-b9c9-ff0ca42d41fb/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Tech Burner Aur Tabaahi - Android Vs Apple, Relationship & Future Tech,  113",
+        title: "Tech Burner Aur Tabaahi - Android Vs Apple, Relationship & Future Tech,  113",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/35c2daed-44f1-41a3-a61a-6522c2d39021/audio/9c8c472f-2123-49f7-83f8-2f7eb22c3a38/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "1st Combat, Special Forces Aur Deadliest Survival Ki Kahaaniyan | CV Singh |  112",
+        title: "1st Combat, Special Forces Aur Deadliest Survival Ki Kahaaniyan | CV Singh |  112",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1824,64 +1677,56 @@ List<PodCast> listOfPodCasts = [
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/a48fb614-3f46-4f7b-93f0-6d4959f172cc/audio/7eafa59a-68c1-49c2-bdaa-92bed9afdd80/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "REAL Astras Explained By Hinduism Researcher Akshat Gupta |  109",
+        title: "REAL Astras Explained By Hinduism Researcher Akshat Gupta |  109",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/67d489ef-8700-4356-9629-e390e2918863/audio/d73a5357-8e58-480c-9d3f-8166a2296ebc/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Ami Ganatra - Krishna, Ram Aur Sita Ki Ankahee Kahaniyaan |  108",
+        title: "Ami Ganatra - Krishna, Ram Aur Sita Ki Ankahee Kahaniyaan |  108",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/fb1fa0dc-5b94-4736-9bc2-430e2a5f93b7/audio/ce4c2351-996f-46e6-8da1-991505d88571/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Indian Navy’s Role In Kargil War, Sea Monsters, Geopolitics | Lt Cdr Bijay Nair |  107",
+        title: "Indian Navy’s Role In Kargil War, Sea Monsters, Geopolitics | Lt Cdr Bijay Nair |  107",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/ceb85c3f-ef51-496a-ac16-5a8bfcc396b5/audio/8110c50c-2f88-4f74-9326-4698cd128f73/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Bihar, Pyaar Aur Bollywood Ki Kahaniyaan - Pankaj Tripathi |  106",
+        title: "Bihar, Pyaar Aur Bollywood Ki Kahaniyaan - Pankaj Tripathi |  106",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/c2161eea-84a1-40e1-9795-c4bbbafa3a40/audio/e915df5e-2174-45e6-947d-272cf322fb2e/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "IIT, Web3 Technology & Business - Sumit Gupta CoinDCX Ki Kahaani |  105",
+        title: "IIT, Web3 Technology & Business - Sumit Gupta CoinDCX Ki Kahaani |  105",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/065a77fe-f3a4-46be-b636-856c8f052e83/audio/122df9b4-3002-4579-a0b5-d3f57690c8df/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "YETI Kaun Aur Kahan Se Aate Hai? Sach Jaano! ft. Maj. Sushant Singh |  104",
+        title: "YETI Kaun Aur Kahan Se Aate Hai? Sach Jaano! ft. Maj. Sushant Singh |  104",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/6e5676ba-c550-4833-ab8a-a9b3988481d0/audio/017833c6-99d5-4283-aba2-87f619223dab/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Motivation, Success Aur Rural India - How I Built MBA CHAI WALA |  103",
+        title: "Motivation, Success Aur Rural India - How I Built MBA CHAI WALA |  103",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/b0b902c9-4212-4656-b7f1-ee18d23ea099/audio/8fa3a835-12f2-4ad2-ad10-bb0c169645a1/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Jaaved Jaaferi Se Baatein - Takeshi's Castle, Bollywood Aur Social Media |  102",
+        title: "Jaaved Jaaferi Se Baatein - Takeshi's Castle, Bollywood Aur Social Media |  102",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1895,8 +1740,7 @@ List<PodCast> listOfPodCasts = [
             "https://cdn.simplecast.com/audio/1240e338-8416-42e6-8179-a913e88d2361/episodes/1bdf4cb4-75ab-4e38-aee9-b7950332df52/audio/afcbeff4-2822-4e72-b0a7-511b89c947b7/default_tc.mp3?aid=rss_feed&feed=Qj87SOvG",
       ),
       PodCastEpisode(
-        title:
-            "Anuj Dhar - Subhash Chandra Bose Conspiracy Theory Explained |  100",
+        title: "Anuj Dhar - Subhash Chandra Bose Conspiracy Theory Explained |  100",
         shortDescription: "",
         posterUrl: "",
         audioSourceUrl:
@@ -1905,6 +1749,7 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
+    id: 7,
     name: "Respectfully Disagree",
     shortDescription:
         "Respectfully Disagree is The Swaddle Team's very own podcast series, in which we get together to discuss and dissect the issues we passionately differ on.",
@@ -2089,6 +1934,7 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
+    id: 8,
     name: "The BarberShop with Shantanu",
     shortDescription:
         "The BarberShop with Shantanu is a podcast where I call entrepreneurs I admire, and go deep with them. Their journey, dreams, failures, challenges, parenthood,...",
@@ -2096,232 +1942,180 @@ List<PodCast> listOfPodCasts = [
         "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/2d/9e/ef/2d9eef99-24e0-46ae-b5e2-c7430053ee23/mza_2006545251384509804.jpg/1280x1280bb-75.jpg",
     episodes: [
       PodCastEpisode(
-        title:
-            "Transforming Education in India, Being An Approachable CEO and The 'Guilt' Of A Working Mom | TBWS",
+        title: "Transforming Education in India, Being An Approachable CEO and The 'Guilt' Of A Working Mom | TBWS",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2023_04_02_08_20_01_89eed9a3-8d14-47e8-ade5-8a7871807ca7.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2023_04_02_08_20_01_89eed9a3-8d14-47e8-ade5-8a7871807ca7.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Building Myntra & CultFit and Taking India's Largest Exit | Mukesh Bansal | Full Episode",
+        title: "Building Myntra & CultFit and Taking India's Largest Exit | Mukesh Bansal | Full Episode",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2023_03_25_07_46_01_58821025-eac0-467e-8df6-5e93ecef481a.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2023_03_25_07_46_01_58821025-eac0-467e-8df6-5e93ecef481a.mp3",
       ),
       PodCastEpisode(
-        title:
-            "A Marketplace Where You Can Buy or Sell Your Startups? Done Deal | FULL EPISODE",
+        title: "A Marketplace Where You Can Buy or Sell Your Startups? Done Deal | FULL EPISODE",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2023_03_20_09_26_52_d21aea98-216f-4cd5-b2ba-dc5acebb4072.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2023_03_20_09_26_52_d21aea98-216f-4cd5-b2ba-dc5acebb4072.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Going Viral On LinkedIn, Working 18 Hours A Day and Hustling to the Top | Full Episode",
+        title: "Going Viral On LinkedIn, Working 18 Hours A Day and Hustling to the Top | Full Episode",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2023_03_12_11_41_27_a75e6f8d-4bbb-4d73-a55b-c0ce07d691e3.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2023_03_12_11_41_27_a75e6f8d-4bbb-4d73-a55b-c0ce07d691e3.mp3",
       ),
       PodCastEpisode(
-        title:
-            "From A Small Town in U.P. To Building Treebo Hotels, Working at McKinsey and Leaving Myntra...",
+        title: "From A Small Town in U.P. To Building Treebo Hotels, Working at McKinsey and Leaving Myntra...",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2023_02_25_08_08_04_bf4eeaa5-f1a9-472f-831d-03069432fb09.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2023_02_25_08_08_04_bf4eeaa5-f1a9-472f-831d-03069432fb09.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Founding GROFERS & BLINKIT, Building ZOMATO and Reaching IIT DELHI From Tier 3 India | FULL EPISODE",
+        title: "Founding GROFERS & BLINKIT, Building ZOMATO and Reaching IIT DELHI From Tier 3 India | FULL EPISODE",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2023_02_13_06_00_16_ad6c0c76-4570-4154-9953-dbb27285258a.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2023_02_13_06_00_16_ad6c0c76-4570-4154-9953-dbb27285258a.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Hacking Luck, Working at A Multi- Billion Dollar Company and Spotting Unicorns Early | TBWS E10",
+        title: "Hacking Luck, Working at A Multi- Billion Dollar Company and Spotting Unicorns Early | TBWS E10",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2023_02_07_06_03_19_5c9591e1-6961-495c-8172-eff279188b75.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2023_02_07_06_03_19_5c9591e1-6961-495c-8172-eff279188b75.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Can This Indian Start-Up Take On Google? | Raiser's Edge | FULL EPISODE",
+        title: "Can This Indian Start-Up Take On Google? | Raiser's Edge | FULL EPISODE",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2023_01_28_11_50_15_0bf78f0d-c56f-4042-8938-492912cd5e38.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2023_01_28_11_50_15_0bf78f0d-c56f-4042-8938-492912cd5e38.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Things Get TENSE As This Founder Presents his ₹30Cr Business| FULL EPISODE | Raiser's Edge",
+        title: "Things Get TENSE As This Founder Presents his ₹30Cr Business| FULL EPISODE | Raiser's Edge",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2023_01_21_06_48_23_2dc62a09-c9f9-4bcc-9542-1e1c1a5164e3.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2023_01_21_06_48_23_2dc62a09-c9f9-4bcc-9542-1e1c1a5164e3.mp3",
       ),
       PodCastEpisode(
-        title:
-            "How Do India's Leading Angel Investors Find The Right Companies? | Episode 7 | TBWS",
+        title: "How Do India's Leading Angel Investors Find The Right Companies? | Episode 7 | TBWS",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2023_01_13_11_49_57_89198946-5731-4157-8402-6df0579d08fe.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2023_01_13_11_49_57_89198946-5731-4157-8402-6df0579d08fe.mp3",
       ),
       PodCastEpisode(
-        title:
-            "A Woman's Community worth 5 Million? | Raiser's Edge | SE2E6 | Aspire's For Her",
+        title: "A Woman's Community worth 5 Million? | Raiser's Edge | SE2E6 | Aspire's For Her",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2023_01_07_13_06_00_302337c4-6aaf-4885-a0d0-6bfe685aab86.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2023_01_07_13_06_00_302337c4-6aaf-4885-a0d0-6bfe685aab86.mp3",
       ),
       PodCastEpisode(
-        title:
-            "PUB-G inspired investment app? How this start up is helping people make real money | S2E5",
+        title: "PUB-G inspired investment app? How this start up is helping people make real money | S2E5",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2022_12_17_14_14_43_65d49166-5461-45f9-8393-66606aa52a14.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2022_12_17_14_14_43_65d49166-5461-45f9-8393-66606aa52a14.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Failing IIT JEE Twice, The Power of Manifestation & Leading Multi Million Dollar Companies | S2E4",
+        title: "Failing IIT JEE Twice, The Power of Manifestation & Leading Multi Million Dollar Companies | S2E4",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2022_12_10_08_30_32_5d879293-f9d9-4282-99fc-18c46a78f042.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2022_12_10_08_30_32_5d879293-f9d9-4282-99fc-18c46a78f042.mp3",
       ),
       PodCastEpisode(
         title:
             "THE FUTURE OF SURGERIES? How 2 women are using silk to revolutionise medical surgeries | The BarberShop with Shantanu: Raiser's Edge | S02 E03",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2022_12_02_17_43_55_c36f3078-0687-4be7-a1ce-b5b9d0523275.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2022_12_02_17_43_55_c36f3078-0687-4be7-a1ce-b5b9d0523275.mp3",
       ),
       PodCastEpisode(
         title:
             "HOW THIS IIM ALUM QUIT HIS JOB TO MOVE BACK TO INDIA AND BUILD TWO SUCCESSFUL ICE-CREAM BUSINESSES | The BarberShop with Shantanu",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2022_12_02_17_28_03_a39fcda9-83e6-471b-ac46-d70459a380f7.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2022_12_02_17_28_03_a39fcda9-83e6-471b-ac46-d70459a380f7.mp3",
       ),
       PodCastEpisode(
-        title:
-            "How This Bhopal Based Startup Became Worth 5Cr During The Pandemic | S2 Premiere | Raiser's Edge",
+        title: "How This Bhopal Based Startup Became Worth 5Cr During The Pandemic | S2 Premiere | Raiser's Edge",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2022_12_02_17_18_08_cd62a711-9043-41ef-a91a-321024b22ce7.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2022_12_02_17_18_08_cd62a711-9043-41ef-a91a-321024b22ce7.mp3",
       ),
       PodCastEpisode(
-        title:
-            "SHARK Vineeta Singh, CEO & Founder SUGAR- raising money & INVESTING in WOMEN | S1 FINALE",
+        title: "SHARK Vineeta Singh, CEO & Founder SUGAR- raising money & INVESTING in WOMEN | S1 FINALE",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2022_10_28_13_05_56_c6f41fd2-566b-401e-b897-14d9163b832b.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2022_10_28_13_05_56_c6f41fd2-566b-401e-b897-14d9163b832b.mp3",
       ),
       PodCastEpisode(
-        title:
-            "FULL S1E9 | Entrepreneurship, Investing and Building Long with Revant Bhate, CEO at Mosaic Wellness",
+        title: "FULL S1E9 | Entrepreneurship, Investing and Building Long with Revant Bhate, CEO at Mosaic Wellness",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2022_10_28_12_59_52_c9780104-3866-4050-bde8-c11256915c6e.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2022_10_28_12_59_52_c9780104-3866-4050-bde8-c11256915c6e.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Winning Mindset & Mental Health | Rohit Bansal, Co Founder Snapdeal & Titan Capital | S1E8 Part 2",
+        title: "Winning Mindset & Mental Health | Rohit Bansal, Co Founder Snapdeal & Titan Capital | S1E8 Part 2",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2022_10_08_06_59_07_44aa8c63-e148-40d8-b35c-b998f70c3f0d.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2022_10_08_06_59_07_44aa8c63-e148-40d8-b35c-b998f70c3f0d.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Building SNAPDEAL, Angel Investing & more | S1E8 Part 1 Ft. Rohit Bansal, Co Founder Snapdeal & Titan Capital",
+        title: "Building SNAPDEAL, Angel Investing & more | S1E8 Part 1 Ft. Rohit Bansal, Co Founder Snapdeal & Titan Capital",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2022_09_30_15_03_20_b87ce29d-b5b8-4729-89ce-06303e83cc8d.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2022_09_30_15_03_20_b87ce29d-b5b8-4729-89ce-06303e83cc8d.mp3",
       ),
       PodCastEpisode(
-        title:
-            "The Idea of Entrepreneurship and Building Wealth | S1E7 Part 2 ft Toshan Tamhane",
+        title: "The Idea of Entrepreneurship and Building Wealth | S1E7 Part 2 ft Toshan Tamhane",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/2022_09_23_09_54_00_2661b4ac-c7bb-41a3-ac06-c1ff35366c17.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/2022_09_23_09_54_00_2661b4ac-c7bb-41a3-ac06-c1ff35366c17.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Regret Minimization, Being a Great CEO and Building Wealth | S1E7 Part 1 Ft. Toshan Tamhane",
+        title: "Regret Minimization, Being a Great CEO and Building Wealth | S1E7 Part 1 Ft. Toshan Tamhane",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/20220916_110947_316376f26068b050af6c57f3671204ab.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/20220916_110947_316376f26068b050af6c57f3671204ab.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Acquiring 8 Companies in 6 months, beating facial paralysis,18 Hour Days | Ft. Bhavna Suresh | S1E6",
+        title: "Acquiring 8 Companies in 6 months, beating facial paralysis,18 Hour Days | Ft. Bhavna Suresh | S1E6",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/20220910_070945_1d875bdec9a62abf0c94324bff7172a4.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/20220910_070945_1d875bdec9a62abf0c94324bff7172a4.mp3",
       ),
       PodCastEpisode(
-        title:
-            "FULL Episode with @Warikoo | My Life My Rules, Helping Others and Building A Content Empire | S1E5",
+        title: "FULL Episode with @Warikoo | My Life My Rules, Helping Others and Building A Content Empire | S1E5",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/20220910_070945_1d875bdec9a62abf0c94324bff7172a4.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/20220910_070945_1d875bdec9a62abf0c94324bff7172a4.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Heading TWO DECACORNS, investing in people & living a good life | S1E4 with Rohit Kapoor",
+        title: "Heading TWO DECACORNS, investing in people & living a good life | S1E4 with Rohit Kapoor",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/20220827_100837_80b6b2f3d537d4d096e686aae58b6e70.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/20220827_100837_80b6b2f3d537d4d096e686aae58b6e70.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Venture Capital, Building Brands and Being a Founder | Asish Mohapatra | S1E3 Part 2",
+        title: "Venture Capital, Building Brands and Being a Founder | Asish Mohapatra | S1E3 Part 2",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/20220820_100833_2c39fe505faca58952f4bc4874fadc1f.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/20220820_100833_2c39fe505faca58952f4bc4874fadc1f.mp3",
       ),
       PodCastEpisode(
-        title:
-            "With TWO PROFITABLE UNICORNS, Asish Mohapatra Founder OfBusiness is making people rich | S1E3 Part 1",
+        title: "With TWO PROFITABLE UNICORNS, Asish Mohapatra Founder OfBusiness is making people rich | S1E3 Part 1",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/20220820_100842_21f934aa55dd6847fdf1132d47b00830.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/20220820_100842_21f934aa55dd6847fdf1132d47b00830.mp3",
       ),
       PodCastEpisode(
         title:
             "Life as a Shark, Building 10,000 Cr+ BOAT, Investor rejections and more | S1E1 with Aman Gupta | The BarberShop with Shantanu",
         shortDescription: "",
         posterUrl: "",
-        audioSourceUrl:
-            "https://media.rss.com/thebarbershopwithshantanu/20220805_100830_0d8f9939218a21466b25ab3ffd33ff95.mp3",
+        audioSourceUrl: "https://media.rss.com/thebarbershopwithshantanu/20220805_100830_0d8f9939218a21466b25ab3ffd33ff95.mp3",
       ),
     ],
   ),
   PodCast(
+    id: 9,
     name: "Woice with Warikoo Podcast",
     shortDescription:
         "Woice is the official podcast of Ankur Warikoo, where he talks about entrepreneurship, startups, careers and personal growth.",
@@ -2562,9 +2356,9 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
+    id: 10,
     name: "Global News Podcast- By BBC",
-    shortDescription:
-        "Global News Podcast Podcast. The day's top stories from BBC News.",
+    shortDescription: "Global News Podcast Podcast. The day's top stories from BBC News.",
     posterUrl:
         "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/23/9d/ce/239dcef7-d24d-bb0b-1ed1-7b7a87d635ce/mza_7839052379663357293.jpg/1280x1280bb-75.jpg",
     episodes: [
@@ -2793,8 +2587,7 @@ List<PodCast> listOfPodCasts = [
             "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fbwhd1.mp3",
       ),
       PodCastEpisode(
-        title:
-            "King Charles's state visit postponed after pension protests in France",
+        title: "King Charles's state visit postponed after pension protests in France",
         shortDescription: "2023-03-24",
         posterUrl: "",
         audioSourceUrl:
@@ -2829,8 +2622,7 @@ List<PodCast> listOfPodCasts = [
             "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/http/vpid/p0fb8gn3.mp3",
       ),
       PodCastEpisode(
-        title:
-            "Earthquake hits Afghanistan as tremors felt in Pakistan and India",
+        title: "Earthquake hits Afghanistan as tremors felt in Pakistan and India",
         shortDescription: "2023-03-22",
         posterUrl: "",
         audioSourceUrl:
@@ -2846,6 +2638,7 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
+    id: 11,
     name: "A Bit of Optimism",
     shortDescription:
         "Being enthusiastic, generous, and kind attracts people who want to help—and together you can accomplish the unreasonable. This is… A Bit of Optimism.",
@@ -2995,6 +2788,7 @@ List<PodCast> listOfPodCasts = [
     ],
   ),
   PodCast(
+    id: 12,
     name: "The Morning Brief- by The Economic Times",
     shortDescription:
         "To make sense of the week's hottest stories in business, economy, politics and markets, journalists from the Economic Times chat with reporters and industry leaders.",
@@ -3164,240 +2958,240 @@ List<PodCast> listOfPodCasts = [
       ),
     ],
   ),
-  PodCast(
-    name: "Demo",
-    shortDescription: "Demo",
-    posterUrl:
-        "https://images.unsplash.com/photo-1593697909683-bccb1b9e68a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80",
-    episodes: [
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-      PodCastEpisode(
-        title: "Demo",
-        shortDescription: "",
-        posterUrl: "",
-        audioSourceUrl: "demo",
-      ),
-    ],
-  ),
+  // PodCast(
+  //   name: "Demo",
+  //   shortDescription: "Demo",
+  //   posterUrl:
+  //       "https://images.unsplash.com/photo-1593697909683-bccb1b9e68a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80",
+  //   episodes: [
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //     PodCastEpisode(
+  //       title: "Demo",
+  //       shortDescription: "",
+  //       posterUrl: "",
+  //       audioSourceUrl: "demo",
+  //     ),
+  //   ],
+  // ),
 ];

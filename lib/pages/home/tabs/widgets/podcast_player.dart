@@ -1,3 +1,4 @@
+import 'package:ai_govinds_radio/model/podcast_model.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../provider/audio_player_provider.dart';
@@ -5,21 +6,28 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:provider/provider.dart';
 
 class PodcastPlayer extends StatefulWidget {
-  const PodcastPlayer({Key? key}) : super(key: key);
+  const PodcastPlayer({
+    Key? key,
+    required this.activeIndex,
+    required this.activePodCast,
+  }) : super(key: key);
+
+  final int activeIndex;
+  final PodCast activePodCast;
 
   @override
   State<PodcastPlayer> createState() => _PodcastPlayerState();
 }
 
 class _PodcastPlayerState extends State<PodcastPlayer> {
-  bool isExpanded = true;
+  bool isExpanded = false;
 
   @override
   Widget build(BuildContext context) {
     var audioProvider = Provider.of<AudioPlayerProvider>(context);
     return AnimatedContainer(
       // height: 200,
-      constraints: BoxConstraints(),
+      constraints: const BoxConstraints(),
       width: MediaQuery.of(context).size.width - 24,
       duration: const Duration(milliseconds: 500),
       margin: const EdgeInsets.symmetric(horizontal: 12),
@@ -45,7 +53,7 @@ class _PodcastPlayerState extends State<PodcastPlayer> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(4),
                       child: Image.network(
-                        "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+                        widget.activePodCast.posterUrl,
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -56,21 +64,21 @@ class _PodcastPlayerState extends State<PodcastPlayer> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
-                  children: const [
+                  children: [
                     Text(
-                      "440 - 2 Ways to Deepen Your Connection",
+                      widget.activePodCast.episodes[widget.activeIndex].title,
                       maxLines: 1,
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: Colors.white,
                         fontSize: 15,
                         fontWeight: FontWeight.w600,
                       ),
                     ),
-                    SizedBox(height: 4),
+                    const SizedBox(height: 4),
                     Text(
-                      "On Purpose With Jay Shetty",
+                      widget.activePodCast.name,
                       maxLines: 1,
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: Colors.white,
                         fontSize: 13,
                       ),
@@ -100,7 +108,9 @@ class _PodcastPlayerState extends State<PodcastPlayer> {
                         audioProvider.resumeAudioPlayer();
                       }
                     },
-                    icon: audioProvider.isPlaying ? Icon(Icons.pause_circle_filled_rounded) : Icon(Icons.play_circle_filled_rounded),
+                    icon: audioProvider.isPlaying
+                        ? const Icon(Icons.pause_circle_filled_rounded)
+                        : const Icon(Icons.play_circle_filled_rounded),
                   ),
                   IconButton(
                     color: Colors.white,
@@ -234,7 +244,9 @@ class _PodcastPlayerState extends State<PodcastPlayer> {
                               audioProvider.resumeAudioPlayer();
                             }
                           },
-                          icon: audioProvider.isPlaying ? Icon(Icons.pause_circle_filled_rounded) : Icon(Icons.play_circle_filled_rounded),
+                          icon: audioProvider.isPlaying
+                              ? const Icon(Icons.pause_circle_filled_rounded)
+                              : const Icon(Icons.play_circle_filled_rounded),
                         ),
                         const SizedBox(width: 24),
                         IconButton(
@@ -249,7 +261,7 @@ class _PodcastPlayerState extends State<PodcastPlayer> {
                     )
                   ],
                 )
-              : SizedBox(),
+              : const SizedBox(),
         ],
       ),
     );

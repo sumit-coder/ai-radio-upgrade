@@ -1,4 +1,5 @@
 class PodCast {
+  final int id;
   final String name;
   final String shortDescription;
   final String posterUrl;
@@ -6,6 +7,7 @@ class PodCast {
 
   PodCast({
     required this.name,
+    required this.id,
     required this.shortDescription,
     required this.episodes,
     required this.posterUrl,
