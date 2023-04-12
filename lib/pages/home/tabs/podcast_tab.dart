@@ -47,7 +47,7 @@ class _PodCastTabState extends State<PodCastTab> {
                     const SizedBox(
                       width: 200,
                       child: Text(
-                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                        "Discover Podcasts on your favorite topics.",
                         maxLines: 2,
                         style: TextStyle(
                           fontSize: 14,
@@ -78,7 +78,8 @@ class _PodCastTabState extends State<PodCastTab> {
                             context,
                             MaterialPageRoute(
                               builder: (context) {
-                                return PodCastViewPage(podCast: listOfPodCasts[index]);
+                                return PodCastViewPage(
+                                    podCast: listOfPodCasts[index]);
                               },
                             ),
                           );
@@ -187,7 +188,9 @@ class PodCastCard extends StatelessWidget {
 }
 
 class SectionDividerWithTitleAndBody extends StatelessWidget {
-  const SectionDividerWithTitleAndBody({Key? key, required this.title, required this.bodyWidget}) : super(key: key);
+  const SectionDividerWithTitleAndBody(
+      {Key? key, required this.title, required this.bodyWidget})
+      : super(key: key);
 
   final String title;
   final Widget bodyWidget;
