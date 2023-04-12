@@ -103,10 +103,12 @@ class PodCastViewPage extends StatelessWidget {
                         shrinkWrap: false,
                         itemBuilder: (BuildContext context, int index) {
                           return EpisodeCard(
+                            isPlaying: getWhichActiveIndexIsPlaying(audioProvider, index),
                             imageUrl: podCast.posterUrl,
                             bodyText: podCast.episodes[index].shortDescription,
                             onTap: () {
                               audioProvider.playAudioPlayer(podCast.episodes[index].audioSourceUrl);
+                              audioProvider.setActivePodCast(activeEpisodeIndex: index, activePodCast: podCast);
                               // audioProvider.pauseAudioPlayer();
                             },
                             title: podCast.episodes[index].title,
@@ -120,12 +122,29 @@ class PodCastViewPage extends StatelessWidget {
             ),
             Positioned(
               bottom: 12,
-              child: PodcastPlayer(),
+              child: audioProvider.activePlayingPodCast != null
+                  ? PodcastPlayer(
+                      activeIndex: audioProvider.activePodCastEpisode!,
+                      activePodCast: audioProvider.activePlayingPodCast!,
+                    )
+                  : SizedBox(),
             ),
           ],
         ),
       ),
     );
+  }
+
+  bool getWhichActiveIndexIsPlaying(AudioPlayerProvider audioPlayerProvider, int index) {
+    if (audioPlayerProvider.activePlayingPodCast == null) {
+      return false;
+    }
+    if (audioPlayerProvider.activePlayingPodCast!.id == podCast.id) {
+      if (audioPlayerProvider.activePodCastEpisode == index) {
+        return true;
+      }
+    }
+    return false;
   }
 }
 
@@ -136,12 +155,14 @@ class EpisodeCard extends StatelessWidget {
     required this.imageUrl,
     required this.onTap,
     required this.bodyText,
+    required this.isPlaying,
   });
 
   final String title;
   final String bodyText;
   final String imageUrl;
   final VoidCallback onTap;
+  final bool isPlaying;
 
   @override
   Widget build(BuildContext context) {
@@ -193,8 +214,8 @@ class EpisodeCard extends StatelessWidget {
           ),
           InkWell(
             onTap: onTap,
-            child: const Icon(
-              Icons.play_arrow,
+            child: Icon(
+              isPlaying ? Icons.pause_rounded : Icons.play_arrow_rounded,
               size: 42,
               color: Colors.white,
             ),
