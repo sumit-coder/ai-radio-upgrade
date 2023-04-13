@@ -94,31 +94,44 @@ class _PodcastPlayerState extends State<PodcastPlayer> {
                     constraints: const BoxConstraints(),
                     padding: EdgeInsets.zero,
                     onPressed: () {
-                      audioProvider.audioPlayer.seek(const Duration(minutes: 50));
+                      audioProvider.playPreviewsFormEpisodeList();
                     },
                     icon: const Icon(Icons.arrow_circle_left_rounded),
                   ),
-                  IconButton(
-                    color: Colors.white,
-                    iconSize: 34,
-                    onPressed: () {
-                      if (audioProvider.audioPlayer.state == PlayerState.playing) {
-                        audioProvider.pauseAudioPlayer();
-                      } else {
-                        audioProvider.resumeAudioPlayer();
-                      }
-                    },
-                    icon: audioProvider.isPlaying
-                        ? const Icon(Icons.pause_circle_filled_rounded)
-                        : const Icon(Icons.play_circle_filled_rounded),
-                  ),
+                  audioProvider.isLoadingNewEpisode
+                      ? Container(
+                          width: 50,
+                          height: 50,
+                          padding: const EdgeInsets.all(16),
+                          child: const CircularProgressIndicator(
+                            color: Colors.deepPurple,
+                            strokeWidth: 2,
+                          ),
+                        )
+                      : SizedBox(
+                          width: 50,
+                          child: IconButton(
+                            color: Colors.white,
+                            iconSize: 34,
+                            onPressed: () {
+                              if (audioProvider.audioPlayer.state == PlayerState.playing) {
+                                audioProvider.pauseAudioPlayer();
+                              } else {
+                                audioProvider.resumeAudioPlayer();
+                              }
+                            },
+                            icon: audioProvider.isPlaying
+                                ? const Icon(Icons.pause_circle_filled_rounded)
+                                : const Icon(Icons.play_circle_filled_rounded),
+                          ),
+                        ),
                   IconButton(
                     color: Colors.white,
                     iconSize: 30,
                     constraints: const BoxConstraints(),
                     padding: EdgeInsets.zero,
                     onPressed: () {
-                      audioProvider.audioPlayer.seek(const Duration(minutes: 50));
+                      audioProvider.playNextFormEpisodeList();
                     },
                     icon: const Icon(Icons.arrow_circle_right_rounded),
                   ),
@@ -224,41 +237,42 @@ class _PodcastPlayerState extends State<PodcastPlayer> {
                         );
                       },
                     ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        IconButton(
-                          color: Colors.white,
-                          iconSize: 44,
-                          onPressed: () {},
-                          icon: const Icon(Icons.arrow_circle_left_rounded),
-                        ),
-                        const SizedBox(width: 24),
-                        IconButton(
-                          color: Colors.white,
-                          iconSize: 54,
-                          onPressed: () {
-                            if (audioProvider.audioPlayer.state == PlayerState.playing) {
-                              audioProvider.pauseAudioPlayer();
-                            } else {
-                              audioProvider.resumeAudioPlayer();
-                            }
-                          },
-                          icon: audioProvider.isPlaying
-                              ? const Icon(Icons.pause_circle_filled_rounded)
-                              : const Icon(Icons.play_circle_filled_rounded),
-                        ),
-                        const SizedBox(width: 24),
-                        IconButton(
-                          color: Colors.white,
-                          iconSize: 44,
-                          onPressed: () {
-                            audioProvider.audioPlayer.seek(const Duration(minutes: 50));
-                          },
-                          icon: const Icon(Icons.arrow_circle_right_rounded),
-                        ),
-                      ],
-                    )
+                    const SizedBox(height: 12)
+                    // Row(
+                    //   mainAxisAlignment: MainAxisAlignment.center,
+                    //   children: [
+                    //     IconButton(
+                    //       color: Colors.white,
+                    //       iconSize: 44,
+                    //       onPressed: () {},
+                    //       icon: const Icon(Icons.arrow_circle_left_rounded),
+                    //     ),
+                    //     const SizedBox(width: 24),
+                    //     IconButton(
+                    //       color: Colors.white,
+                    //       iconSize: 54,
+                    //       onPressed: () {
+                    //         if (audioProvider.audioPlayer.state == PlayerState.playing) {
+                    //           audioProvider.pauseAudioPlayer();
+                    //         } else {
+                    //           audioProvider.resumeAudioPlayer();
+                    //         }
+                    //       },
+                    //       icon: audioProvider.isPlaying
+                    //           ? const Icon(Icons.pause_circle_filled_rounded)
+                    //           : const Icon(Icons.play_circle_filled_rounded),
+                    //     ),
+                    //     const SizedBox(width: 24),
+                    //     IconButton(
+                    //       color: Colors.white,
+                    //       iconSize: 44,
+                    //       onPressed: () {
+                    //         audioProvider.audioPlayer.seek(const Duration(minutes: 50));
+                    //       },
+                    //       icon: const Icon(Icons.arrow_circle_right_rounded),
+                    //     ),
+                    //   ],
+                    // )
                   ],
                 )
               : const SizedBox(),

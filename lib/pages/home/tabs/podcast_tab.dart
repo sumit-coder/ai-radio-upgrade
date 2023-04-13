@@ -1,7 +1,10 @@
 import 'package:ai_govinds_radio/pages/home/tabs/podcast_view_page.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../../../data/podcast_data.dart';
+import '../../../provider/audio_player_provider.dart';
+import 'widgets/podcast_player.dart';
 
 class PodCastTab extends StatefulWidget {
   PodCastTab({Key? key}) : super(key: key);
@@ -22,79 +25,92 @@ class _PodCastTabState extends State<PodCastTab> {
 
   @override
   Widget build(BuildContext context) {
+    var audioProvider = Provider.of<AudioPlayerProvider>(context);
     return SafeArea(
       child: Container(
-        child: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const SizedBox(height: 84),
-              Container(
-                margin: const EdgeInsets.only(left: 22),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      "Explore".toUpperCase(),
-                      maxLines: 1,
-                      style: const TextStyle(
-                        fontSize: 24,
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 4),
-                    const SizedBox(
-                      width: 200,
-                      child: Text(
-                        "Discover Podcasts on your favorite topics.",
-                        maxLines: 2,
-                        style: TextStyle(
-                          fontSize: 14,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w600,
+        child: Stack(
+          children: [
+            SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const SizedBox(height: 84),
+                  Container(
+                    margin: const EdgeInsets.only(left: 22),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "Explore".toUpperCase(),
+                          maxLines: 1,
+                          style: const TextStyle(
+                            fontSize: 24,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 18),
-              SectionDividerWithTitleAndBody(
-                title: '',
-                bodyWidget: Container(
-                  // height: 200,
-                  // width: 200,
-                  child: ListView.builder(
-                    itemCount: listOfPodCasts.length,
-                    shrinkWrap: true,
-                    padding: const EdgeInsets.only(left: 16, right: 16),
-                    // scrollDirection: Axis.horizontal,
-                    physics: const BouncingScrollPhysics(),
-                    itemBuilder: (context, index) {
-                      return PodCastCard(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) {
-                                return PodCastViewPage(
-                                    podCast: listOfPodCasts[index]);
-                              },
+                        const SizedBox(height: 4),
+                        const SizedBox(
+                          width: 200,
+                          child: Text(
+                            "Discover Podcasts on your favorite topics.",
+                            maxLines: 2,
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
                             ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: 18),
+                  SectionDividerWithTitleAndBody(
+                    title: '',
+                    bodyWidget: Container(
+                      // height: 200,
+                      // width: 200,
+                      child: ListView.builder(
+                        itemCount: listOfPodCasts.length,
+                        shrinkWrap: true,
+                        padding: const EdgeInsets.only(left: 16, right: 16),
+                        // scrollDirection: Axis.horizontal,
+                        physics: const BouncingScrollPhysics(),
+                        itemBuilder: (context, index) {
+                          return PodCastCard(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return PodCastViewPage(podCast: listOfPodCasts[index]);
+                                  },
+                                ),
+                              );
+                            },
+                            title: listOfPodCasts[index].name,
+                            bodyText: listOfPodCasts[index].shortDescription,
+                            imageUrl: listOfPodCasts[index].posterUrl,
+                            episodeCount: listOfPodCasts[index].episodes.length,
                           );
                         },
-                        title: listOfPodCasts[index].name,
-                        bodyText: listOfPodCasts[index].shortDescription,
-                        imageUrl: listOfPodCasts[index].posterUrl,
-                        episodeCount: listOfPodCasts[index].episodes.length,
-                      );
-                    },
+                      ),
+                    ),
                   ),
-                ),
+                ],
               ),
-            ],
-          ),
+            ),
+            Positioned(
+              bottom: 12,
+              child: audioProvider.activePlayingPodCast != null
+                  ? PodcastPlayer(
+                      activeIndex: audioProvider.activePodCastEpisode!,
+                      activePodCast: audioProvider.activePlayingPodCast!,
+                    )
+                  : SizedBox(),
+            ),
+          ],
         ),
       ),
     );
@@ -188,9 +204,7 @@ class PodCastCard extends StatelessWidget {
 }
 
 class SectionDividerWithTitleAndBody extends StatelessWidget {
-  const SectionDividerWithTitleAndBody(
-      {Key? key, required this.title, required this.bodyWidget})
-      : super(key: key);
+  const SectionDividerWithTitleAndBody({Key? key, required this.title, required this.bodyWidget}) : super(key: key);
 
   final String title;
   final Widget bodyWidget;
