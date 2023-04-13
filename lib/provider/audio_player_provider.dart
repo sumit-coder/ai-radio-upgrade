@@ -7,6 +7,8 @@ class AudioPlayerProvider with ChangeNotifier {
   Duration activeAudioDuration = Duration.zero;
   bool isPlaying = false;
   //
+  bool isLoadingNewEpisode = true;
+  //
   PodCast? activePlayingPodCast;
   int? activePodCastEpisode;
   //
@@ -28,6 +30,7 @@ class AudioPlayerProvider with ChangeNotifier {
   playAudioPlayer(String audioFileUrl) async {
     await audioPlayer.play(UrlSource(audioFileUrl)).whenComplete(() {
       setPlayPauseFunc(true);
+      isLoadingNewEpisode = false;
     });
     activeAudioDuration = await audioPlayer.getDuration() ?? Duration.zero;
 
@@ -47,5 +50,34 @@ class AudioPlayerProvider with ChangeNotifier {
   stopAudioPlayer(String audioFileUrl) async {
     await audioPlayer.stop();
     setPlayPauseFunc(false);
+  }
+
+  playNextFormEpisodeList() {
+    // check active podcast should not be null
+    if (activePlayingPodCast != null) {
+      // if playing episode is not last episode
+      if (activePodCastEpisode! + 1 <= activePlayingPodCast!.episodes.length) {
+        // if all good then play next episode audio form url
+        activePodCastEpisode = activePodCastEpisode! + 1;
+        isLoadingNewEpisode = true;
+        playAudioPlayer(activePlayingPodCast!.episodes[activePodCastEpisode! + 1].audioSourceUrl);
+      }
+    }
+
+    notifyListeners();
+  }
+
+  playPreviewsFormEpisodeList() {
+    // check active podcast should not be null
+    if (activePlayingPodCast != null) {
+      // if playing episode is not first episode
+      if (activePodCastEpisode != 0) {
+        // if all good then play next episode audio form url
+        playAudioPlayer(activePlayingPodCast!.episodes[activePodCastEpisode! - 1].audioSourceUrl);
+        activePodCastEpisode = activePodCastEpisode! - 1;
+        isLoadingNewEpisode = true;
+      }
+    }
+    notifyListeners();
   }
 }
